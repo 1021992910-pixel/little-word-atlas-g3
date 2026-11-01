@@ -1,0 +1,87 @@
+{
+  "version": "art2",
+  "generator": "Built-in imagegen",
+  "style": "Original illustrated Friendship Planet adventure",
+  "images": [
+    {
+      "id": "camp-base-v2",
+      "file": "assets/adventure/camp-base-v2.webp",
+      "width": 1600,
+      "height": 800,
+      "hasAlpha": false,
+      "bytes": 325468
+    },
+    {
+      "id": "signal-v2",
+      "file": "assets/adventure/signal-v2.webp",
+      "width": 900,
+      "height": 600,
+      "hasAlpha": false,
+      "bytes": 127714
+    },
+    {
+      "id": "sound-v2",
+      "file": "assets/adventure/sound-v2.webp",
+      "width": 900,
+      "height": 600,
+      "hasAlpha": false,
+      "bytes": 125842
+    },
+    {
+      "id": "supply-v2",
+      "file": "assets/adventure/supply-v2.webp",
+      "width": 900,
+      "height": 600,
+      "hasAlpha": false,
+      "bytes": 147586
+    },
+    {
+      "id": "bridge-v2",
+      "file": "assets/adventure/bridge-v2.webp",
+      "width": 900,
+      "height": 600,
+      "hasAlpha": false,
+      "bytes": 180602
+    },
+    {
+      "id": "friends-v2",
+      "file": "assets/adventure/friends-v2.webp",
+      "width": 900,
+      "height": 600,
+      "hasAlpha": false,
+      "bytes": 131246
+    },
+    {
+      "id": "party-v2",
+      "file": "assets/adventure/party-v2.webp",
+      "width": 900,
+      "height": 600,
+      "hasAlpha": false,
+      "bytes": 161864
+    },
+    {
+      "id": "lamp-v2",
+      "file": "assets/adventure/lamp-v2.webp",
+      "width": 420,
+      "height": 630,
+      "hasAlpha": true,
+      "bytes": 61354
+    },
+    {
+      "id": "flag-v2",
+      "file": "assets/adventure/flag-v2.webp",
+      "width": 420,
+      "height": 504,
+      "hasAlpha": true,
+      "bytes": 35588
+    },
+    {
+      "id": "rocket-v2",
+      "file": "assets/adventure/rocket-v2.webp",
+      "width": 420,
+      "height": 504,
+      "hasAlpha": true,
+      "bytes": 44120
+    }
+  ]
+}
