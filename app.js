@@ -13,11 +13,11 @@ const SCENES={friend:{caption:'课间，朋友帮忙捡起掉落的书。',alt:'
 const STORE_KEY='little-word-atlas-g3-u1-v1';
 const root=document.querySelector('#main-content');
 let persistenceOK=true;
-let state={schema:1,words:{},history:[],speed:1};
+let state={schema:1,words:{},history:[],speed:1,adventure:AdventureModel.blank()};
 const escapeHTML = value => String(value).replace(/[&<>"']/g,char=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
 function sanitizeState(data){
   if(!data||data.schema!==1||typeof data.words!=='object'||!data.words)throw new Error('格式不正确');
-  const clean={schema:1,words:{},history:[],speed:[0.8,1].includes(data.speed)?data.speed:1};
+  const clean={schema:1,words:{},history:[],speed:[0.8,1].includes(data.speed)?data.speed:1,adventure:AdventureModel.sanitize(data.adventure)};
   for(const w of WORDS){const r=data.words[w.id];if(r&&Number.isInteger(r.level)&&r.level>=0&&r.level<=5&&Number.isFinite(r.due)&&r.due>=0){clean.words[w.id]={level:r.level,due:r.due,last:Number.isFinite(r.last)?r.last:0};}}
   if(Array.isArray(data.history))clean.history=data.history.filter(x=>x&&['picture','listen','spell'].includes(x.mode)&&Number.isInteger(x.correct)&&Number.isInteger(x.total)&&x.total>0&&x.total<=7&&x.correct>=0&&x.correct<=x.total&&Number.isFinite(x.at)).slice(-100).map(x=>({mode:x.mode,correct:x.correct,total:x.total,at:x.at}));
   return clean;
@@ -124,6 +124,7 @@ function sceneSource(id){return `./assets/scenes/${id}.webp`;}
 function heroArt(){return `<img src="${sceneSource('meet')}" alt="新同学第一次见面，互相挥手问好。" width="1448" height="1086">`;}
 let currentRoute='learn',filter='all',search='',quiz=null,currentWordIndex=0,wordView='sentence';
 function route(name){
+  adventureCleanup();
   if(!['learn','practice','review','stars'].includes(name))name='learn';
   stopAudio();currentRoute=name;quiz=null;document.querySelectorAll('[data-route]').forEach(b=>{b.classList.toggle('active',b.dataset.route===name);if(b.dataset.route===name)b.setAttribute('aria-current','page');else b.removeAttribute('aria-current');});
   history.replaceState(null,'',`#${name}`);render();
@@ -152,9 +153,7 @@ function renderWord(){
 }
 function advanceWord(){stopAudio();if(currentWordIndex<6){currentWordIndex++;renderWord();}else{document.querySelector('#word-dialog').close();render();}}
 function pageIntro(title,sub,label){return `${crumb(label)}<div class="page-intro"><span class="eyebrow">UNIT 01 · LET’S BE FRIENDS!</span><h1>${title}</h1><p>${sub}</p></div>`;}
-function renderPractice(){
-  root.innerHTML=`${pageIntro('来一场单词小冒险','选一种方式，看看你和单词朋友有多熟。','趣味闯关')}<div class="mode-grid">${[{id:'picture',icon:'▧',title:'看图找朋友',desc:'看一看画面，选出对应的单词。',tone:'#e8eddd'},{id:'listen',icon:'♪',title:'听音小侦探',desc:'仔细听发音，找出它的名字。',tone:'#f4e6d8'},{id:'spell',icon:'Aa',title:'单词拼拼乐',desc:'看中文提示，试着把单词拼出来。',tone:'#e4ece7'}].map(m=>`<button class="mode-card" data-mode="${m.id}"><span class="mode-icon" style="--tone:${m.tone}">${m.icon}</span><h2>${m.title}</h2><p>${m.desc}</p><span>7 道小挑战 ↗</span></button>`).join('')}</div><div class="practice-note"><span>✦</span><p>做错也没关系。它会进入“我的复习”，下次再和它打个招呼。</p></div>${state.history.length?`<p class="exercise-history">已完成 ${state.history.length} 次练习 · 每题首次作答计入成绩</p>`:''}`;
-}
+function renderPractice(){renderAdventure();}
 function shuffle(list){const result=[...list];for(let i=result.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[result[i],result[j]]=[result[j],result[i]];}return result;}
 function startQuiz(mode,list=WORDS,review=false){stopAudio();quiz={mode,items:shuffle(list),index:0,correct:0,answered:false,review};renderQuestion();}
 function renderQuestion(){
@@ -203,6 +202,6 @@ function showAudioSource(){stopAudio();document.querySelector('#settings-dialog'
 document.querySelector('#audio-source-open').onclick=showAudioSource;
 document.querySelector('#export-progress').onclick=()=>{const blob=new Blob([JSON.stringify(state,null,2)],{type:'application/json'});const url=URL.createObjectURL(blob);const a=document.createElement('a');a.href=url;a.download='单词小星球-Unit1-学习记录.json';document.body.append(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),1000);toast('学习记录已导出。');};
 document.querySelector('#import-progress').onclick=()=>document.querySelector('#import-file').click();
-document.querySelector('#import-file').onchange=async event=>{const file=event.target.files[0];if(!file)return;try{if(file.size>200000)throw new Error('文件过大');const imported=sanitizeState(JSON.parse(await file.text()));for(const w of WORDS){const incoming=imported.words[w.id],existing=state.words[w.id];if(incoming&&(!existing||incoming.last>=existing.last))state.words[w.id]=incoming;}const byKey=new Map([...state.history,...imported.history].map(x=>[`${x.at}-${x.mode}`,x]));state.history=[...byKey.values()].sort((a,b)=>a.at-b.at).slice(-100);save();render();toast('学习记录已合并。');}catch{toast('未能导入，请选择本网站导出的学习记录。');}event.target.value='';};
+document.querySelector('#import-file').onchange=async event=>{const file=event.target.files[0];if(!file)return;try{if(file.size>200000)throw new Error('文件过大');const imported=sanitizeState(JSON.parse(await file.text()));for(const w of WORDS){const incoming=imported.words[w.id],existing=state.words[w.id];if(incoming&&(!existing||incoming.last>=existing.last))state.words[w.id]=incoming;}const byKey=new Map([...state.history,...imported.history].map(x=>[`${x.at}-${x.mode}`,x]));state.history=[...byKey.values()].sort((a,b)=>a.at-b.at).slice(-100);state.adventure=AdventureModel.merge(state.adventure,imported.adventure);adventureCleanup();save();render();toast('学习记录已合并。');}catch{toast('未能导入，请选择本网站导出的学习记录。');}event.target.value='';};
 window.addEventListener('hashchange',()=>route(location.hash.slice(1)));
 route(location.hash.slice(1)||'learn');
