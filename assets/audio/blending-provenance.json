@@ -1,0 +1,827 @@
+{
+  "purpose": "Short model: spoken reminder + sound each grapheme + slowed complete UK word + child response gap + natural complete word.",
+  "chime": "Original 120 ms decaying 880 Hz sine cue, locally generated.",
+  "sound_out": "Individual reference clips; not a continuous human recording. Natural blending is modeled by the slowed complete en-GB word.",
+  "microphone": false,
+  "scoring": false,
+  "lessons": {
+    "friend": {
+      "audio": "blend-friend",
+      "parts": [
+        "f",
+        "r",
+        "ie",
+        "n",
+        "d"
+      ],
+      "sounds": [
+        "sound-f",
+        "sound-r",
+        "sound-e",
+        "sound-n",
+        "sound-d"
+      ],
+      "focus": 2,
+      "hint": "ie 在 friend 里读 /e/，这里特别记。",
+      "duration": 20.19792,
+      "steps": [
+        {
+          "start": 0,
+          "end": 0.12,
+          "phase": "reminder",
+          "index": 2,
+          "clip": null,
+          "text": "ie 在 friend 里读 /e/，这里特别记。"
+        },
+        {
+          "start": 0.12,
+          "end": 4.944,
+          "phase": "reminder",
+          "index": 2,
+          "clip": "blend-tip-friend",
+          "text": "ie 在 friend 里读 /e/，这里特别记。"
+        },
+        {
+          "start": 4.944,
+          "end": 5.344,
+          "phase": "reminder",
+          "index": 2,
+          "clip": "sound-e",
+          "text": "ie 在 friend 里读 /e/，这里特别记。"
+        },
+        {
+          "start": 5.344,
+          "end": 7.216,
+          "phase": "cue",
+          "index": null,
+          "clip": null,
+          "text": "跟老师，把每一部分的声音拼出来。"
+        },
+        {
+          "start": 7.216,
+          "end": 7.676,
+          "phase": "phoneme",
+          "index": 0,
+          "clip": "sound-f",
+          "text": "跟着亮起来的部分，听声音。"
+        },
+        {
+          "start": 7.676,
+          "end": 8.086,
+          "phase": "phoneme",
+          "index": 1,
+          "clip": "sound-r",
+          "text": "跟着亮起来的部分，听声音。"
+        },
+        {
+          "start": 8.086,
+          "end": 8.526,
+          "phase": "phoneme",
+          "index": 2,
+          "clip": "sound-e",
+          "text": "跟着亮起来的部分，听声音。"
+        },
+        {
+          "start": 8.526,
+          "end": 8.926,
+          "phase": "phoneme",
+          "index": 3,
+          "clip": "sound-n",
+          "text": "跟着亮起来的部分，听声音。"
+        },
+        {
+          "start": 8.926,
+          "end": 9.201,
+          "phase": "phoneme",
+          "index": 4,
+          "clip": "sound-d",
+          "text": "跟着亮起来的部分，听声音。"
+        },
+        {
+          "start": 9.201,
+          "end": 11.073,
+          "phase": "cue",
+          "index": null,
+          "clip": null,
+          "text": "把这些声音连起来。"
+        },
+        {
+          "start": 11.073,
+          "end": 13.45392,
+          "phase": "blend",
+          "index": null,
+          "clip": "friend",
+          "text": "连起来读：friend"
+        },
+        {
+          "start": 13.45392,
+          "end": 15.32592,
+          "phase": "cue",
+          "index": null,
+          "clip": null,
+          "text": "轮到你，试着拼一遍。"
+        },
+        {
+          "start": 15.32592,
+          "end": 18.32592,
+          "phase": "echo",
+          "index": null,
+          "clip": null,
+          "text": "轮到你，试着拼一遍。"
+        },
+        {
+          "start": 18.32592,
+          "end": 20.19792,
+          "phase": "word",
+          "index": null,
+          "clip": "friend",
+          "text": "再听一次完整单词。"
+        }
+      ]
+    },
+    "meet": {
+      "audio": "blend-meet",
+      "parts": [
+        "m",
+        "ee",
+        "t"
+      ],
+      "sounds": [
+        "sound-m",
+        "sound-ee",
+        "sound-t"
+      ],
+      "focus": 1,
+      "hint": "ee 合起来读 /iː/。",
+      "duration": 17.32375,
+      "steps": [
+        {
+          "start": 0,
+          "end": 0.12,
+          "phase": "reminder",
+          "index": 1,
+          "clip": null,
+          "text": "ee 合起来读 /iː/。"
+        },
+        {
+          "start": 0.12,
+          "end": 2.544,
+          "phase": "reminder",
+          "index": 1,
+          "clip": "blend-tip-meet",
+          "text": "ee 合起来读 /iː/。"
+        },
+        {
+          "start": 2.544,
+          "end": 3.164,
+          "phase": "reminder",
+          "index": 1,
+          "clip": "sound-ee",
+          "text": "ee 合起来读 /iː/。"
+        },
+        {
+          "start": 3.164,
+          "end": 5.036,
+          "phase": "cue",
+          "index": null,
+          "clip": null,
+          "text": "跟老师，把每一部分的声音拼出来。"
+        },
+        {
+          "start": 5.036,
+          "end": 5.396,
+          "phase": "phoneme",
+          "index": 0,
+          "clip": "sound-m",
+          "text": "跟着亮起来的部分，听声音。"
+        },
+        {
+          "start": 5.396,
+          "end": 6.056,
+          "phase": "phoneme",
+          "index": 1,
+          "clip": "sound-ee",
+          "text": "跟着亮起来的部分，听声音。"
+        },
+        {
+          "start": 6.056,
+          "end": 6.33,
+          "phase": "phoneme",
+          "index": 2,
+          "clip": "sound-t",
+          "text": "跟着亮起来的部分，听声音。"
+        },
+        {
+          "start": 6.33,
+          "end": 8.202,
+          "phase": "cue",
+          "index": null,
+          "clip": null,
+          "text": "把这些声音连起来。"
+        },
+        {
+          "start": 8.202,
+          "end": 10.57975,
+          "phase": "blend",
+          "index": null,
+          "clip": "meet",
+          "text": "连起来读：meet"
+        },
+        {
+          "start": 10.57975,
+          "end": 12.45175,
+          "phase": "cue",
+          "index": null,
+          "clip": null,
+          "text": "轮到你，试着拼一遍。"
+        },
+        {
+          "start": 12.45175,
+          "end": 15.45175,
+          "phase": "echo",
+          "index": null,
+          "clip": null,
+          "text": "轮到你，试着拼一遍。"
+        },
+        {
+          "start": 15.45175,
+          "end": 17.32375,
+          "phase": "word",
+          "index": null,
+          "clip": "meet",
+          "text": "再听一次完整单词。"
+        }
+      ]
+    },
+    "play": {
+      "audio": "blend-play",
+      "parts": [
+        "p",
+        "l",
+        "ay"
+      ],
+      "sounds": [
+        "sound-p",
+        "sound-l",
+        "sound-ay"
+      ],
+      "focus": 2,
+      "hint": "ay 在这里合起来读 /eɪ/。",
+      "duration": 18.45267,
+      "steps": [
+        {
+          "start": 0,
+          "end": 0.12,
+          "phase": "reminder",
+          "index": 2,
+          "clip": null,
+          "text": "ay 在这里合起来读 /eɪ/。"
+        },
+        {
+          "start": 0.12,
+          "end": 3.336,
+          "phase": "reminder",
+          "index": 2,
+          "clip": "blend-tip-play",
+          "text": "ay 在这里合起来读 /eɪ/。"
+        },
+        {
+          "start": 3.336,
+          "end": 4.11504,
+          "phase": "reminder",
+          "index": 2,
+          "clip": "sound-ay",
+          "text": "ay 在这里合起来读 /eɪ/。"
+        },
+        {
+          "start": 4.11504,
+          "end": 5.98704,
+          "phase": "cue",
+          "index": null,
+          "clip": null,
+          "text": "跟老师，把每一部分的声音拼出来。"
+        },
+        {
+          "start": 5.98704,
+          "end": 6.25704,
+          "phase": "phoneme",
+          "index": 0,
+          "clip": "sound-p",
+          "text": "跟着亮起来的部分，听声音。"
+        },
+        {
+          "start": 6.25704,
+          "end": 6.63704,
+          "phase": "phoneme",
+          "index": 1,
+          "clip": "sound-l",
+          "text": "跟着亮起来的部分，听声音。"
+        },
+        {
+          "start": 6.63704,
+          "end": 7.45608,
+          "phase": "phoneme",
+          "index": 2,
+          "clip": "sound-ay",
+          "text": "跟着亮起来的部分，听声音。"
+        },
+        {
+          "start": 7.45608,
+          "end": 9.32808,
+          "phase": "cue",
+          "index": null,
+          "clip": null,
+          "text": "把这些声音连起来。"
+        },
+        {
+          "start": 9.32808,
+          "end": 11.70867,
+          "phase": "blend",
+          "index": null,
+          "clip": "play",
+          "text": "连起来读：play"
+        },
+        {
+          "start": 11.70867,
+          "end": 13.58067,
+          "phase": "cue",
+          "index": null,
+          "clip": null,
+          "text": "轮到你，试着拼一遍。"
+        },
+        {
+          "start": 13.58067,
+          "end": 16.58067,
+          "phase": "echo",
+          "index": null,
+          "clip": null,
+          "text": "轮到你，试着拼一遍。"
+        },
+        {
+          "start": 16.58067,
+          "end": 18.45267,
+          "phase": "word",
+          "index": null,
+          "clip": "play",
+          "text": "再听一次完整单词。"
+        }
+      ]
+    },
+    "happy": {
+      "audio": "blend-happy",
+      "parts": [
+        "h",
+        "a",
+        "pp",
+        "y"
+      ],
+      "sounds": [
+        "sound-h",
+        "sound-a",
+        "sound-p",
+        "sound-i"
+      ],
+      "focus": 3,
+      "hint": "pp 只发一个音；词尾 y 在这里读 /i/。",
+      "duration": 19.727,
+      "steps": [
+        {
+          "start": 0,
+          "end": 0.12,
+          "phase": "reminder",
+          "index": 3,
+          "clip": null,
+          "text": "pp 只发一个音；词尾 y 在这里读 /i/。"
+        },
+        {
+          "start": 0.12,
+          "end": 4.992,
+          "phase": "reminder",
+          "index": 3,
+          "clip": "blend-tip-happy",
+          "text": "pp 只发一个音；词尾 y 在这里读 /i/。"
+        },
+        {
+          "start": 4.992,
+          "end": 5.352,
+          "phase": "reminder",
+          "index": 3,
+          "clip": "sound-i",
+          "text": "pp 只发一个音；词尾 y 在这里读 /i/。"
+        },
+        {
+          "start": 5.352,
+          "end": 7.224,
+          "phase": "cue",
+          "index": null,
+          "clip": null,
+          "text": "跟老师，把每一部分的声音拼出来。"
+        },
+        {
+          "start": 7.224,
+          "end": 7.594,
+          "phase": "phoneme",
+          "index": 0,
+          "clip": "sound-h",
+          "text": "跟着亮起来的部分，听声音。"
+        },
+        {
+          "start": 7.594,
+          "end": 8.064,
+          "phase": "phoneme",
+          "index": 1,
+          "clip": "sound-a",
+          "text": "跟着亮起来的部分，听声音。"
+        },
+        {
+          "start": 8.064,
+          "end": 8.334,
+          "phase": "phoneme",
+          "index": 2,
+          "clip": "sound-p",
+          "text": "跟着亮起来的部分，听声音。"
+        },
+        {
+          "start": 8.334,
+          "end": 8.734,
+          "phase": "phoneme",
+          "index": 3,
+          "clip": "sound-i",
+          "text": "跟着亮起来的部分，听声音。"
+        },
+        {
+          "start": 8.734,
+          "end": 10.606,
+          "phase": "cue",
+          "index": null,
+          "clip": null,
+          "text": "把这些声音连起来。"
+        },
+        {
+          "start": 10.606,
+          "end": 12.983,
+          "phase": "blend",
+          "index": null,
+          "clip": "happy",
+          "text": "连起来读：happy"
+        },
+        {
+          "start": 12.983,
+          "end": 14.855,
+          "phase": "cue",
+          "index": null,
+          "clip": null,
+          "text": "轮到你，试着拼一遍。"
+        },
+        {
+          "start": 14.855,
+          "end": 17.855,
+          "phase": "echo",
+          "index": null,
+          "clip": null,
+          "text": "轮到你，试着拼一遍。"
+        },
+        {
+          "start": 17.855,
+          "end": 19.727,
+          "phase": "word",
+          "index": null,
+          "clip": "happy",
+          "text": "再听一次完整单词。"
+        }
+      ]
+    },
+    "you": {
+      "audio": "blend-you",
+      "parts": [
+        "y",
+        "ou"
+      ],
+      "sounds": [
+        "sound-j",
+        "sound-u"
+      ],
+      "focus": 1,
+      "hint": "ou 在 you 里读 /uː/，这里特别记。",
+      "duration": 19.24367,
+      "steps": [
+        {
+          "start": 0,
+          "end": 0.12,
+          "phase": "reminder",
+          "index": 1,
+          "clip": null,
+          "text": "ou 在 you 里读 /uː/，这里特别记。"
+        },
+        {
+          "start": 0.12,
+          "end": 4.776,
+          "phase": "reminder",
+          "index": 1,
+          "clip": "blend-tip-you",
+          "text": "ou 在 you 里读 /uː/，这里特别记。"
+        },
+        {
+          "start": 4.776,
+          "end": 5.356,
+          "phase": "reminder",
+          "index": 1,
+          "clip": "sound-u",
+          "text": "ou 在 you 里读 /uː/，这里特别记。"
+        },
+        {
+          "start": 5.356,
+          "end": 7.228,
+          "phase": "cue",
+          "index": null,
+          "clip": null,
+          "text": "跟老师，把每一部分的声音拼出来。"
+        },
+        {
+          "start": 7.228,
+          "end": 7.628,
+          "phase": "phoneme",
+          "index": 0,
+          "clip": "sound-j",
+          "text": "跟着亮起来的部分，听声音。"
+        },
+        {
+          "start": 7.628,
+          "end": 8.248,
+          "phase": "phoneme",
+          "index": 1,
+          "clip": "sound-u",
+          "text": "跟着亮起来的部分，听声音。"
+        },
+        {
+          "start": 8.248,
+          "end": 10.12,
+          "phase": "cue",
+          "index": null,
+          "clip": null,
+          "text": "把这些声音连起来。"
+        },
+        {
+          "start": 10.12,
+          "end": 12.49967,
+          "phase": "blend",
+          "index": null,
+          "clip": "you",
+          "text": "连起来读：you"
+        },
+        {
+          "start": 12.49967,
+          "end": 14.37167,
+          "phase": "cue",
+          "index": null,
+          "clip": null,
+          "text": "轮到你，试着拼一遍。"
+        },
+        {
+          "start": 14.37167,
+          "end": 17.37167,
+          "phase": "echo",
+          "index": null,
+          "clip": null,
+          "text": "轮到你，试着拼一遍。"
+        },
+        {
+          "start": 17.37167,
+          "end": 19.24367,
+          "phase": "word",
+          "index": null,
+          "clip": "you",
+          "text": "再听一次完整单词。"
+        }
+      ]
+    },
+    "to": {
+      "audio": "blend-to",
+      "parts": [
+        "t",
+        "o"
+      ],
+      "sounds": [
+        "sound-t",
+        "sound-u"
+      ],
+      "focus": 1,
+      "hint": "to 单独读时，o 读 /uː/，这里特别记。",
+      "duration": 17.65367,
+      "steps": [
+        {
+          "start": 0,
+          "end": 0.12,
+          "phase": "reminder",
+          "index": 1,
+          "clip": null,
+          "text": "to 单独读时，o 读 /uː/，这里特别记。"
+        },
+        {
+          "start": 0.12,
+          "end": 3.312,
+          "phase": "reminder",
+          "index": 1,
+          "clip": "blend-tip-to",
+          "text": "to 单独读时，o 读 /uː/，这里特别记。"
+        },
+        {
+          "start": 3.312,
+          "end": 3.892,
+          "phase": "reminder",
+          "index": 1,
+          "clip": "sound-u",
+          "text": "to 单独读时，o 读 /uː/，这里特别记。"
+        },
+        {
+          "start": 3.892,
+          "end": 5.764,
+          "phase": "cue",
+          "index": null,
+          "clip": null,
+          "text": "跟老师，把每一部分的声音拼出来。"
+        },
+        {
+          "start": 5.764,
+          "end": 6.038,
+          "phase": "phoneme",
+          "index": 0,
+          "clip": "sound-t",
+          "text": "跟着亮起来的部分，听声音。"
+        },
+        {
+          "start": 6.038,
+          "end": 6.658,
+          "phase": "phoneme",
+          "index": 1,
+          "clip": "sound-u",
+          "text": "跟着亮起来的部分，听声音。"
+        },
+        {
+          "start": 6.658,
+          "end": 8.53,
+          "phase": "cue",
+          "index": null,
+          "clip": null,
+          "text": "把这些声音连起来。"
+        },
+        {
+          "start": 8.53,
+          "end": 10.90967,
+          "phase": "blend",
+          "index": null,
+          "clip": "to",
+          "text": "连起来读：to"
+        },
+        {
+          "start": 10.90967,
+          "end": 12.78167,
+          "phase": "cue",
+          "index": null,
+          "clip": null,
+          "text": "轮到你，试着拼一遍。"
+        },
+        {
+          "start": 12.78167,
+          "end": 15.78167,
+          "phase": "echo",
+          "index": null,
+          "clip": null,
+          "text": "轮到你，试着拼一遍。"
+        },
+        {
+          "start": 15.78167,
+          "end": 17.65367,
+          "phase": "word",
+          "index": null,
+          "clip": "to",
+          "text": "再听一次完整单词。"
+        }
+      ]
+    },
+    "lets": {
+      "audio": "blend-lets-sfix",
+      "parts": [
+        "l",
+        "e",
+        "t",
+        "'s"
+      ],
+      "sounds": [
+        "sound-l",
+        "sound-e",
+        "sound-t",
+        "sound-s"
+      ],
+      "focus": 3,
+      "hint": "小撇号不发音，这里的 s 读 /s/。",
+      "duration": 18.64808,
+      "steps": [
+        {
+          "start": 0,
+          "end": 0.12,
+          "phase": "reminder",
+          "index": 3,
+          "clip": null,
+          "text": "小撇号不发音，这里的 s 读 /s/。"
+        },
+        {
+          "start": 0.12,
+          "end": 3.888,
+          "phase": "reminder",
+          "index": 3,
+          "clip": "blend-tip-lets",
+          "text": "小撇号不发音，这里的 s 读 /s/。"
+        },
+        {
+          "start": 3.888,
+          "end": 4.268,
+          "phase": "reminder",
+          "index": 3,
+          "clip": "sound-s",
+          "text": "小撇号不发音，这里的 s 读 /s/。"
+        },
+        {
+          "start": 4.268,
+          "end": 6.14,
+          "phase": "cue",
+          "index": null,
+          "clip": null,
+          "text": "跟老师，把每一部分的声音拼出来。"
+        },
+        {
+          "start": 6.14,
+          "end": 6.52,
+          "phase": "phoneme",
+          "index": 0,
+          "clip": "sound-l",
+          "text": "跟着亮起来的部分，听声音。"
+        },
+        {
+          "start": 6.52,
+          "end": 6.96,
+          "phase": "phoneme",
+          "index": 1,
+          "clip": "sound-e",
+          "text": "跟着亮起来的部分，听声音。"
+        },
+        {
+          "start": 6.96,
+          "end": 7.234,
+          "phase": "phoneme",
+          "index": 2,
+          "clip": "sound-t",
+          "text": "跟着亮起来的部分，听声音。"
+        },
+        {
+          "start": 7.234,
+          "end": 7.654,
+          "phase": "phoneme",
+          "index": 3,
+          "clip": "sound-s",
+          "text": "跟着亮起来的部分，听声音。"
+        },
+        {
+          "start": 7.654,
+          "end": 9.526,
+          "phase": "cue",
+          "index": null,
+          "clip": null,
+          "text": "把这些声音连起来。"
+        },
+        {
+          "start": 9.526,
+          "end": 11.90408,
+          "phase": "blend",
+          "index": null,
+          "clip": "lets",
+          "text": "连起来读：let's"
+        },
+        {
+          "start": 11.90408,
+          "end": 13.77608,
+          "phase": "cue",
+          "index": null,
+          "clip": null,
+          "text": "轮到你，试着拼一遍。"
+        },
+        {
+          "start": 13.77608,
+          "end": 16.77608,
+          "phase": "echo",
+          "index": null,
+          "clip": null,
+          "text": "轮到你，试着拼一遍。"
+        },
+        {
+          "start": 16.77608,
+          "end": 18.64808,
+          "phase": "word",
+          "index": null,
+          "clip": "lets",
+          "text": "再听一次完整单词。"
+        }
+      ]
+    }
+  }
+}

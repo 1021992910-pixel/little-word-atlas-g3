@@ -1,0 +1,19 @@
+{
+  "provider": "Microsoft Edge online text-to-speech",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "locale": "zh-CN",
+  "rate": "-3%",
+  "notes": "Original short scripts. Letter names identify visible graphemes; independent audio supplies phonemes. IPA symbols are not read by text-to-speech.",
+  "clips": {
+    "blend-start": "跟我拼。",
+    "blend-join": "连起来。",
+    "blend-turn": "你也来拼一遍。",
+    "blend-tip-friend": "特别记一下，I 和 E 在这个词里，合起来读。",
+    "blend-tip-meet": "两个 E 合起来，读。",
+    "blend-tip-play": "A 和 Y 在这里，合起来读。",
+    "blend-tip-happy": "两个 P 这里只发一个音。结尾的 Y，读。",
+    "blend-tip-you": "特别记一下，O 和 U 在这个词里，合起来读。",
+    "blend-tip-to": "这个词单独读的时候，O 读。",
+    "blend-tip-lets": "小撇号自己不发音，最后的 S 读。"
+  }
+}

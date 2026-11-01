@@ -1,0 +1,61 @@
+{
+  "provider": "Microsoft Edge online neural synthetic speech",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "locale": "zh-CN",
+  "rate": "-8%",
+  "script": "Original Chinese child-facing prompts, informed by general phonics methods; not a reproduction or endorsement of any programme.",
+  "clips": {
+    "teacher-start": {
+      "text": "先听这个单词，等一会儿，跟着一起读。",
+      "file": "teacher-start.mp3"
+    },
+    "teacher-echo-sound": {
+      "text": "轮到你了，试着读一读这个声音。",
+      "file": "teacher-echo-sound.mp3"
+    },
+    "teacher-blend": {
+      "text": "现在，把它放回单词里。先听，再跟着读。",
+      "file": "teacher-blend.mp3"
+    },
+    "teacher-again": {
+      "text": "再来一次。这次你也跟着读。",
+      "file": "teacher-again.mp3"
+    },
+    "teacher-sentence": {
+      "text": "把单词放进一句话里。先听一遍，然后轮到你。",
+      "file": "teacher-sentence.mp3"
+    },
+    "teacher-finish": {
+      "text": "这一轮带读结束啦。你可以再听一次，也可以试试下面的找一找。",
+      "file": "teacher-finish.mp3"
+    },
+    "teacher-friend": {
+      "text": "看中间亮起来的两个字母。这是这个单词要特别记的地方。嘴巴自然张开，声音短一些。先听这个声音。不要把这里的读法，套到所有这样的字母组合上。",
+      "file": "teacher-friend.mp3"
+    },
+    "teacher-meet": {
+      "text": "看中间亮起来的两个字母，它们合在一起，只发一个音。嘴角轻轻向两边，声音稍稍拉长。听一听。",
+      "file": "teacher-meet.mp3"
+    },
+    "teacher-play": {
+      "text": "看结尾亮起来的两个字母，它们合在一起，发一个滑动的声音。嘴巴从稍微张开，慢慢收小。听一听。开头两个辅音，要紧紧连在一起，不要在中间加一个额外的声音。",
+      "file": "teacher-play.mp3"
+    },
+    "teacher-happy": {
+      "text": "看看结尾亮起来的字母。在这个单词里，它发一个短短的音。嘴角轻轻向两边。听一听。再看中间两个相同的辅音字母，它们这里只发一个音。",
+      "file": "teacher-happy.mp3"
+    },
+    "teacher-you": {
+      "text": "看后面亮起来的两个字母。先记住它们在这个词里的声音。嘴唇轻轻拢圆，听一听。读完整单词时，把尾音稍稍拉长。这两个字母在别的词里，还可能有别的读法。",
+      "file": "teacher-you.mp3"
+    },
+    "teacher-to": {
+      "text": "看亮起来的元音字母。这个词单独读的时候，它的声音要特别记。嘴唇轻轻拢圆，听一听。读完整单词时，把尾音稍稍拉长。放进句子里，它有时会读得轻一些。",
+      "file": "teacher-to.mp3"
+    },
+    "teacher-lets": {
+      "text": "注意结尾的小撇号和字母。小撇号自己不发音。最后这个字母，轻轻送气，不要在后面加一个额外的元音。听一听。这个词是让我们一起做一件事的邀请。",
+      "file": "teacher-lets.mp3"
+    }
+  }
+}

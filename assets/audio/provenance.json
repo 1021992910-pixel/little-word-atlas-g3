@@ -1,0 +1,478 @@
+{
+  "provider": "Microsoft Edge online text-to-speech",
+  "voice": "en-GB-SoniaNeural",
+  "locale": "en-GB",
+  "kind": "neural synthetic speech",
+  "rate": "-10%",
+  "boundary": "WordBoundary",
+  "clips": {
+    "friend": {
+      "text": "friend",
+      "file": "friend.mp3",
+      "words": [
+        {
+          "text": "friend",
+          "start": 0.1333,
+          "end": 0.8278
+        }
+      ],
+      "rawBoundaries": [
+        {
+          "text": "friend",
+          "offset": 1333330,
+          "duration": 6944580
+        }
+      ]
+    },
+    "meet": {
+      "text": "meet",
+      "file": "meet.mp3",
+      "words": [
+        {
+          "text": "meet",
+          "start": 0.1195,
+          "end": 0.7028
+        }
+      ],
+      "rawBoundaries": [
+        {
+          "text": "meet",
+          "offset": 1194580,
+          "duration": 5833330
+        }
+      ]
+    },
+    "play": {
+      "text": "play",
+      "file": "play.mp3",
+      "words": [
+        {
+          "text": "play",
+          "start": 0.1028,
+          "end": 0.6861
+        }
+      ],
+      "rawBoundaries": [
+        {
+          "text": "play",
+          "offset": 1027910,
+          "duration": 5833330
+        }
+      ]
+    },
+    "you": {
+      "text": "you",
+      "file": "you.mp3",
+      "words": [
+        {
+          "text": "you",
+          "start": 0.1333,
+          "end": 0.5917
+        }
+      ],
+      "rawBoundaries": [
+        {
+          "text": "you",
+          "offset": 1333330,
+          "duration": 4583330
+        }
+      ]
+    },
+    "happy": {
+      "text": "happy",
+      "file": "happy.mp3",
+      "words": [
+        {
+          "text": "happy",
+          "start": 0.1195,
+          "end": 0.7028
+        }
+      ],
+      "rawBoundaries": [
+        {
+          "text": "happy",
+          "offset": 1194580,
+          "duration": 5833330
+        }
+      ]
+    },
+    "lets": {
+      "text": "let's",
+      "file": "lets.mp3",
+      "words": [
+        {
+          "text": "let's",
+          "start": 0.1014,
+          "end": 0.7958
+        }
+      ],
+      "rawBoundaries": [
+        {
+          "text": "let's",
+          "offset": 1013750,
+          "duration": 6944580
+        }
+      ]
+    },
+    "to": {
+      "text": "to",
+      "file": "to.mp3",
+      "words": [
+        {
+          "text": "to",
+          "start": 0.1472,
+          "end": 0.5639
+        }
+      ],
+      "rawBoundaries": [
+        {
+          "text": "to",
+          "offset": 1472080,
+          "duration": 4166660
+        }
+      ]
+    },
+    "meet-sentence": {
+      "text": "Nice to meet you.",
+      "file": "meet-sentence.mp3",
+      "words": [
+        {
+          "text": "Nice",
+          "start": 0.1195,
+          "end": 0.4945
+        },
+        {
+          "text": "to",
+          "start": 0.5083,
+          "end": 0.6472
+        },
+        {
+          "text": "meet",
+          "start": 0.6611,
+          "end": 0.9667
+        },
+        {
+          "text": "you.",
+          "start": 0.9805,
+          "end": 1.3277
+        }
+      ],
+      "rawBoundaries": [
+        {
+          "text": "Nice",
+          "offset": 1194580,
+          "duration": 3750000
+        },
+        {
+          "text": "to",
+          "offset": 5083330,
+          "duration": 1388750
+        },
+        {
+          "text": "meet",
+          "offset": 6611250,
+          "duration": 3055410
+        },
+        {
+          "text": "you",
+          "offset": 9805410,
+          "duration": 3472080
+        }
+      ]
+    },
+    "friend-sentence": {
+      "text": "This is my friend.",
+      "file": "friend-sentence.mp3",
+      "words": [
+        {
+          "text": "This",
+          "start": 0.1472,
+          "end": 0.425
+        },
+        {
+          "text": "is",
+          "start": 0.4389,
+          "end": 0.5917
+        },
+        {
+          "text": "my",
+          "start": 0.6055,
+          "end": 0.8
+        },
+        {
+          "text": "friend.",
+          "start": 0.8139,
+          "end": 1.4667
+        }
+      ],
+      "rawBoundaries": [
+        {
+          "text": "This",
+          "offset": 1472080,
+          "duration": 2777910
+        },
+        {
+          "text": "is",
+          "offset": 4388750,
+          "duration": 1527910
+        },
+        {
+          "text": "my",
+          "offset": 6055410,
+          "duration": 1944580
+        },
+        {
+          "text": "friend",
+          "offset": 8138750,
+          "duration": 6527910
+        }
+      ]
+    },
+    "play-sentence": {
+      "text": "Let's play.",
+      "file": "play-sentence.mp3",
+      "words": [
+        {
+          "text": "Let's",
+          "start": 0.1055,
+          "end": 0.4805
+        },
+        {
+          "text": "play.",
+          "start": 0.4945,
+          "end": 1.0083
+        }
+      ],
+      "rawBoundaries": [
+        {
+          "text": "Let's",
+          "offset": 1055410,
+          "duration": 3750000
+        },
+        {
+          "text": "play",
+          "offset": 4944580,
+          "duration": 5138750
+        }
+      ]
+    },
+    "happy-sentence": {
+      "text": "I'm happy.",
+      "file": "happy-sentence.mp3",
+      "words": [
+        {
+          "text": "I'm",
+          "start": 0.1472,
+          "end": 0.3555
+        },
+        {
+          "text": "happy.",
+          "start": 0.3695,
+          "end": 0.9667
+        }
+      ],
+      "rawBoundaries": [
+        {
+          "text": "I'm",
+          "offset": 1472080,
+          "duration": 2083330
+        },
+        {
+          "text": "happy",
+          "offset": 3694580,
+          "duration": 5972080
+        }
+      ]
+    },
+    "you-sentence": {
+      "text": "You are my friend.",
+      "file": "you-sentence.mp3",
+      "words": [
+        {
+          "text": "You",
+          "start": 0.1472,
+          "end": 0.3417
+        },
+        {
+          "text": "are",
+          "start": 0.3555,
+          "end": 0.4527
+        },
+        {
+          "text": "my",
+          "start": 0.4667,
+          "end": 0.675
+        },
+        {
+          "text": "friend.",
+          "start": 0.6889,
+          "end": 1.3555
+        }
+      ],
+      "rawBoundaries": [
+        {
+          "text": "You",
+          "offset": 1472080,
+          "duration": 1944580
+        },
+        {
+          "text": "are",
+          "offset": 3555410,
+          "duration": 972080
+        },
+        {
+          "text": "my",
+          "offset": 4666660,
+          "duration": 2083330
+        },
+        {
+          "text": "friend",
+          "offset": 6888750,
+          "duration": 6666660
+        }
+      ]
+    },
+    "introduce-self": {
+      "text": "I'm Mia.",
+      "file": "introduce-self.mp3",
+      "words": [
+        {
+          "text": "I'm",
+          "start": 0.1195,
+          "end": 0.3833
+        },
+        {
+          "text": "Mia.",
+          "start": 0.3972,
+          "end": 0.9111
+        }
+      ],
+      "rawBoundaries": [
+        {
+          "text": "I'm",
+          "offset": 1194580,
+          "duration": 2638750
+        },
+        {
+          "text": "Mia",
+          "offset": 3972080,
+          "duration": 5138750
+        }
+      ]
+    },
+    "lets-sentence": {
+      "text": "Let's be friends.",
+      "file": "lets-sentence.mp3",
+      "words": [
+        {
+          "text": "Let's",
+          "start": 0.1055,
+          "end": 0.4667
+        },
+        {
+          "text": "be",
+          "start": 0.4805,
+          "end": 0.6333
+        },
+        {
+          "text": "friends.",
+          "start": 0.6472,
+          "end": 1.4111
+        }
+      ],
+      "rawBoundaries": [
+        {
+          "text": "Let's",
+          "offset": 1055410,
+          "duration": 3611250
+        },
+        {
+          "text": "be",
+          "offset": 4805410,
+          "duration": 1527910
+        },
+        {
+          "text": "friends",
+          "offset": 6472080,
+          "duration": 7638750
+        }
+      ]
+    },
+    "introduce-friend": {
+      "text": "She is my friend.",
+      "file": "introduce-friend.mp3",
+      "words": [
+        {
+          "text": "She",
+          "start": 0.1333,
+          "end": 0.3695
+        },
+        {
+          "text": "is",
+          "start": 0.3833,
+          "end": 0.55
+        },
+        {
+          "text": "my",
+          "start": 0.5639,
+          "end": 0.7583
+        },
+        {
+          "text": "friend.",
+          "start": 0.7722,
+          "end": 1.4389
+        }
+      ],
+      "rawBoundaries": [
+        {
+          "text": "She",
+          "offset": 1333330,
+          "duration": 2361250
+        },
+        {
+          "text": "is",
+          "offset": 3833330,
+          "duration": 1666660
+        },
+        {
+          "text": "my",
+          "offset": 5638750,
+          "duration": 1944580
+        },
+        {
+          "text": "friend",
+          "offset": 7722080,
+          "duration": 6666660
+        }
+      ]
+    },
+    "we-friends": {
+      "text": "We're friends.",
+      "file": "we-friends.mp3",
+      "words": [
+        {
+          "text": "We're",
+          "start": 0.1014,
+          "end": 0.4069
+        },
+        {
+          "text": "friends.",
+          "start": 0.4208,
+          "end": 1.1847
+        }
+      ],
+      "rawBoundaries": [
+        {
+          "text": "We're",
+          "offset": 1013750,
+          "duration": 3055410
+        },
+        {
+          "text": "friends",
+          "offset": 4208330,
+          "duration": 7638750
+        }
+      ]
+    }
+  }
+}

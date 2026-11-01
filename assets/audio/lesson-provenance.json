@@ -1,0 +1,983 @@
+{
+  "format": "24kHz mono; concatenated cue, phoneme and en-GB word clips; intentional silent response gaps. Chinese subtitles are phase-aligned, not word-by-word recognition.",
+  "microphone": false,
+  "scoring": false,
+  "lessons": {
+    "friend": {
+      "audio": "lesson-friend",
+      "sound": "sound-e",
+      "group": "ie",
+      "duration": 66.55204,
+      "steps": [
+        {
+          "start": 0,
+          "end": 4.2,
+          "phase": "listen",
+          "text": "先听这个单词，等一会儿，跟着一起读。",
+          "clip": "teacher-start"
+        },
+        {
+          "start": 4.2,
+          "end": 6.072,
+          "phase": "word",
+          "text": "friend",
+          "clip": "friend"
+        },
+        {
+          "start": 6.072,
+          "end": 22.224,
+          "phase": "focus",
+          "text": "看中间亮起来的两个字母。这是这个单词要特别记的地方。嘴巴自然张开，声音短一些。先听这个声音。不要把这里的读法，套到所有这样的字母组合上。",
+          "clip": "teacher-friend"
+        },
+        {
+          "start": 22.224,
+          "end": 22.88004,
+          "phase": "sound",
+          "text": "ie · 听这个声音",
+          "clip": "sound-e"
+        },
+        {
+          "start": 22.88004,
+          "end": 26.48004,
+          "phase": "cue",
+          "text": "轮到你：读一读这个声音",
+          "clip": "teacher-echo-sound"
+        },
+        {
+          "start": 26.48004,
+          "end": 28.98004,
+          "phase": "echo-sound",
+          "text": "轮到你：读一读这个声音",
+          "clip": null
+        },
+        {
+          "start": 28.98004,
+          "end": 34.42804,
+          "phase": "cue",
+          "text": "现在，把它放回单词里。先听，再跟着读。",
+          "clip": "teacher-blend"
+        },
+        {
+          "start": 34.42804,
+          "end": 36.30004,
+          "phase": "word",
+          "text": "friend",
+          "clip": "friend"
+        },
+        {
+          "start": 36.30004,
+          "end": 39.30004,
+          "phase": "echo-word",
+          "text": "轮到你：读一遍完整单词",
+          "clip": null
+        },
+        {
+          "start": 39.30004,
+          "end": 43.04404,
+          "phase": "cue",
+          "text": "再来一次。这次你也跟着读。",
+          "clip": "teacher-again"
+        },
+        {
+          "start": 43.04404,
+          "end": 44.91604,
+          "phase": "word",
+          "text": "friend",
+          "clip": "friend"
+        },
+        {
+          "start": 44.91604,
+          "end": 47.91604,
+          "phase": "echo-word",
+          "text": "再跟读一次",
+          "clip": null
+        },
+        {
+          "start": 47.91604,
+          "end": 53.46004,
+          "phase": "cue",
+          "text": "把单词放进一句话里。先听一遍，然后轮到你。",
+          "clip": "teacher-sentence"
+        },
+        {
+          "start": 53.46004,
+          "end": 55.33204,
+          "phase": "sentence",
+          "text": "This is my friend.",
+          "clip": "friend-sentence"
+        },
+        {
+          "start": 55.33204,
+          "end": 59.83204,
+          "phase": "echo-sentence",
+          "text": "轮到你：把这句话说一遍",
+          "clip": null
+        },
+        {
+          "start": 59.83204,
+          "end": 66.55204,
+          "phase": "finish",
+          "text": "这一轮带读结束啦。你可以再听一次，也可以试试下面的找一找。",
+          "clip": "teacher-finish"
+        }
+      ],
+      "sentence": "friend-sentence",
+      "words": [
+        {
+          "text": "This",
+          "start": 53.60724,
+          "end": 53.88504
+        },
+        {
+          "text": "is",
+          "start": 53.89894,
+          "end": 54.05174
+        },
+        {
+          "text": "my",
+          "start": 54.06554,
+          "end": 54.26004
+        },
+        {
+          "text": "friend.",
+          "start": 54.27394,
+          "end": 54.92674
+        }
+      ]
+    },
+    "meet": {
+      "audio": "lesson-meet",
+      "sound": "sound-ee",
+      "group": "ee",
+      "duration": 62.39333,
+      "steps": [
+        {
+          "start": 0,
+          "end": 4.2,
+          "phase": "listen",
+          "text": "先听这个单词，等一会儿，跟着一起读。",
+          "clip": "teacher-start"
+        },
+        {
+          "start": 4.2,
+          "end": 6.072,
+          "phase": "word",
+          "text": "meet",
+          "clip": "meet"
+        },
+        {
+          "start": 6.072,
+          "end": 17.064,
+          "phase": "focus",
+          "text": "看中间亮起来的两个字母，它们合在一起，只发一个音。嘴角轻轻向两边，声音稍稍拉长。听一听。",
+          "clip": "teacher-meet"
+        },
+        {
+          "start": 17.064,
+          "end": 18.72133,
+          "phase": "sound",
+          "text": "ee · 听这个声音",
+          "clip": "sound-ee"
+        },
+        {
+          "start": 18.72133,
+          "end": 22.32133,
+          "phase": "cue",
+          "text": "轮到你：读一读这个声音",
+          "clip": "teacher-echo-sound"
+        },
+        {
+          "start": 22.32133,
+          "end": 24.82133,
+          "phase": "echo-sound",
+          "text": "轮到你：读一读这个声音",
+          "clip": null
+        },
+        {
+          "start": 24.82133,
+          "end": 30.26933,
+          "phase": "cue",
+          "text": "现在，把它放回单词里。先听，再跟着读。",
+          "clip": "teacher-blend"
+        },
+        {
+          "start": 30.26933,
+          "end": 32.14133,
+          "phase": "word",
+          "text": "meet",
+          "clip": "meet"
+        },
+        {
+          "start": 32.14133,
+          "end": 35.14133,
+          "phase": "echo-word",
+          "text": "轮到你：读一遍完整单词",
+          "clip": null
+        },
+        {
+          "start": 35.14133,
+          "end": 38.88533,
+          "phase": "cue",
+          "text": "再来一次。这次你也跟着读。",
+          "clip": "teacher-again"
+        },
+        {
+          "start": 38.88533,
+          "end": 40.75733,
+          "phase": "word",
+          "text": "meet",
+          "clip": "meet"
+        },
+        {
+          "start": 40.75733,
+          "end": 43.75733,
+          "phase": "echo-word",
+          "text": "再跟读一次",
+          "clip": null
+        },
+        {
+          "start": 43.75733,
+          "end": 49.30133,
+          "phase": "cue",
+          "text": "把单词放进一句话里。先听一遍，然后轮到你。",
+          "clip": "teacher-sentence"
+        },
+        {
+          "start": 49.30133,
+          "end": 51.17333,
+          "phase": "sentence",
+          "text": "Nice to meet you.",
+          "clip": "meet-sentence"
+        },
+        {
+          "start": 51.17333,
+          "end": 55.67333,
+          "phase": "echo-sentence",
+          "text": "轮到你：把这句话说一遍",
+          "clip": null
+        },
+        {
+          "start": 55.67333,
+          "end": 62.39333,
+          "phase": "finish",
+          "text": "这一轮带读结束啦。你可以再听一次，也可以试试下面的找一找。",
+          "clip": "teacher-finish"
+        }
+      ],
+      "sentence": "meet-sentence",
+      "words": [
+        {
+          "text": "Nice",
+          "start": 49.42083,
+          "end": 49.79583
+        },
+        {
+          "text": "to",
+          "start": 49.80963,
+          "end": 49.94853
+        },
+        {
+          "text": "meet",
+          "start": 49.96243,
+          "end": 50.26803
+        },
+        {
+          "text": "you.",
+          "start": 50.28183,
+          "end": 50.62903
+        }
+      ]
+    },
+    "play": {
+      "audio": "lesson-play",
+      "sound": "sound-ay",
+      "group": "ay",
+      "duration": 67.69904,
+      "steps": [
+        {
+          "start": 0,
+          "end": 4.2,
+          "phase": "listen",
+          "text": "先听这个单词，等一会儿，跟着一起读。",
+          "clip": "teacher-start"
+        },
+        {
+          "start": 4.2,
+          "end": 6.072,
+          "phase": "word",
+          "text": "play",
+          "clip": "play"
+        },
+        {
+          "start": 6.072,
+          "end": 23.448,
+          "phase": "focus",
+          "text": "看结尾亮起来的两个字母，它们合在一起，发一个滑动的声音。嘴巴从稍微张开，慢慢收小。听一听。开头两个辅音，要紧紧连在一起，不要在中间加一个额外的声音。",
+          "clip": "teacher-play"
+        },
+        {
+          "start": 23.448,
+          "end": 24.02704,
+          "phase": "sound",
+          "text": "ay · 听这个声音",
+          "clip": "sound-ay"
+        },
+        {
+          "start": 24.02704,
+          "end": 27.62704,
+          "phase": "cue",
+          "text": "轮到你：读一读这个声音",
+          "clip": "teacher-echo-sound"
+        },
+        {
+          "start": 27.62704,
+          "end": 30.12704,
+          "phase": "echo-sound",
+          "text": "轮到你：读一读这个声音",
+          "clip": null
+        },
+        {
+          "start": 30.12704,
+          "end": 35.57504,
+          "phase": "cue",
+          "text": "现在，把它放回单词里。先听，再跟着读。",
+          "clip": "teacher-blend"
+        },
+        {
+          "start": 35.57504,
+          "end": 37.44704,
+          "phase": "word",
+          "text": "play",
+          "clip": "play"
+        },
+        {
+          "start": 37.44704,
+          "end": 40.44704,
+          "phase": "echo-word",
+          "text": "轮到你：读一遍完整单词",
+          "clip": null
+        },
+        {
+          "start": 40.44704,
+          "end": 44.19104,
+          "phase": "cue",
+          "text": "再来一次。这次你也跟着读。",
+          "clip": "teacher-again"
+        },
+        {
+          "start": 44.19104,
+          "end": 46.06304,
+          "phase": "word",
+          "text": "play",
+          "clip": "play"
+        },
+        {
+          "start": 46.06304,
+          "end": 49.06304,
+          "phase": "echo-word",
+          "text": "再跟读一次",
+          "clip": null
+        },
+        {
+          "start": 49.06304,
+          "end": 54.60704,
+          "phase": "cue",
+          "text": "把单词放进一句话里。先听一遍，然后轮到你。",
+          "clip": "teacher-sentence"
+        },
+        {
+          "start": 54.60704,
+          "end": 56.47904,
+          "phase": "sentence",
+          "text": "Let's play.",
+          "clip": "play-sentence"
+        },
+        {
+          "start": 56.47904,
+          "end": 60.97904,
+          "phase": "echo-sentence",
+          "text": "轮到你：把这句话说一遍",
+          "clip": null
+        },
+        {
+          "start": 60.97904,
+          "end": 67.69904,
+          "phase": "finish",
+          "text": "这一轮带读结束啦。你可以再听一次，也可以试试下面的找一找。",
+          "clip": "teacher-finish"
+        }
+      ],
+      "sentence": "play-sentence",
+      "words": [
+        {
+          "text": "Let's",
+          "start": 54.71254,
+          "end": 55.08754
+        },
+        {
+          "text": "play.",
+          "start": 55.10154,
+          "end": 55.61534
+        }
+      ]
+    },
+    "happy": {
+      "audio": "lesson-happy",
+      "sound": "sound-i",
+      "group": "y",
+      "duration": 65.80187,
+      "steps": [
+        {
+          "start": 0,
+          "end": 4.2,
+          "phase": "listen",
+          "text": "先听这个单词，等一会儿，跟着一起读。",
+          "clip": "teacher-start"
+        },
+        {
+          "start": 4.2,
+          "end": 6.072,
+          "phase": "word",
+          "text": "happy",
+          "clip": "happy"
+        },
+        {
+          "start": 6.072,
+          "end": 21.528,
+          "phase": "focus",
+          "text": "看看结尾亮起来的字母。在这个单词里，它发一个短短的音。嘴角轻轻向两边。听一听。再看中间两个相同的辅音字母，它们这里只发一个音。",
+          "clip": "teacher-happy"
+        },
+        {
+          "start": 21.528,
+          "end": 22.12987,
+          "phase": "sound",
+          "text": "y · 听这个声音",
+          "clip": "sound-i"
+        },
+        {
+          "start": 22.12987,
+          "end": 25.72987,
+          "phase": "cue",
+          "text": "轮到你：读一读这个声音",
+          "clip": "teacher-echo-sound"
+        },
+        {
+          "start": 25.72987,
+          "end": 28.22987,
+          "phase": "echo-sound",
+          "text": "轮到你：读一读这个声音",
+          "clip": null
+        },
+        {
+          "start": 28.22987,
+          "end": 33.67788,
+          "phase": "cue",
+          "text": "现在，把它放回单词里。先听，再跟着读。",
+          "clip": "teacher-blend"
+        },
+        {
+          "start": 33.67788,
+          "end": 35.54988,
+          "phase": "word",
+          "text": "happy",
+          "clip": "happy"
+        },
+        {
+          "start": 35.54988,
+          "end": 38.54988,
+          "phase": "echo-word",
+          "text": "轮到你：读一遍完整单词",
+          "clip": null
+        },
+        {
+          "start": 38.54988,
+          "end": 42.29387,
+          "phase": "cue",
+          "text": "再来一次。这次你也跟着读。",
+          "clip": "teacher-again"
+        },
+        {
+          "start": 42.29387,
+          "end": 44.16587,
+          "phase": "word",
+          "text": "happy",
+          "clip": "happy"
+        },
+        {
+          "start": 44.16587,
+          "end": 47.16587,
+          "phase": "echo-word",
+          "text": "再跟读一次",
+          "clip": null
+        },
+        {
+          "start": 47.16587,
+          "end": 52.70987,
+          "phase": "cue",
+          "text": "把单词放进一句话里。先听一遍，然后轮到你。",
+          "clip": "teacher-sentence"
+        },
+        {
+          "start": 52.70987,
+          "end": 54.58187,
+          "phase": "sentence",
+          "text": "I'm happy.",
+          "clip": "happy-sentence"
+        },
+        {
+          "start": 54.58187,
+          "end": 59.08187,
+          "phase": "echo-sentence",
+          "text": "轮到你：把这句话说一遍",
+          "clip": null
+        },
+        {
+          "start": 59.08187,
+          "end": 65.80187,
+          "phase": "finish",
+          "text": "这一轮带读结束啦。你可以再听一次，也可以试试下面的找一找。",
+          "clip": "teacher-finish"
+        }
+      ],
+      "sentence": "happy-sentence",
+      "words": [
+        {
+          "text": "I'm",
+          "start": 52.85707,
+          "end": 53.06537
+        },
+        {
+          "text": "happy.",
+          "start": 53.07937,
+          "end": 53.67657
+        }
+      ]
+    },
+    "you": {
+      "audio": "lesson-you",
+      "sound": "sound-u",
+      "group": "ou",
+      "duration": 68.12613,
+      "steps": [
+        {
+          "start": 0,
+          "end": 4.2,
+          "phase": "listen",
+          "text": "先听这个单词，等一会儿，跟着一起读。",
+          "clip": "teacher-start"
+        },
+        {
+          "start": 4.2,
+          "end": 6.072,
+          "phase": "word",
+          "text": "you",
+          "clip": "you"
+        },
+        {
+          "start": 6.072,
+          "end": 23.784,
+          "phase": "focus",
+          "text": "看后面亮起来的两个字母。先记住它们在这个词里的声音。嘴唇轻轻拢圆，听一听。读完整单词时，把尾音稍稍拉长。这两个字母在别的词里，还可能有别的读法。",
+          "clip": "teacher-you"
+        },
+        {
+          "start": 23.784,
+          "end": 24.45412,
+          "phase": "sound",
+          "text": "ou · 听这个声音",
+          "clip": "sound-u"
+        },
+        {
+          "start": 24.45412,
+          "end": 28.05412,
+          "phase": "cue",
+          "text": "轮到你：读一读这个声音",
+          "clip": "teacher-echo-sound"
+        },
+        {
+          "start": 28.05412,
+          "end": 30.55412,
+          "phase": "echo-sound",
+          "text": "轮到你：读一读这个声音",
+          "clip": null
+        },
+        {
+          "start": 30.55412,
+          "end": 36.00212,
+          "phase": "cue",
+          "text": "现在，把它放回单词里。先听，再跟着读。",
+          "clip": "teacher-blend"
+        },
+        {
+          "start": 36.00212,
+          "end": 37.87412,
+          "phase": "word",
+          "text": "you",
+          "clip": "you"
+        },
+        {
+          "start": 37.87412,
+          "end": 40.87412,
+          "phase": "echo-word",
+          "text": "轮到你：读一遍完整单词",
+          "clip": null
+        },
+        {
+          "start": 40.87412,
+          "end": 44.61812,
+          "phase": "cue",
+          "text": "再来一次。这次你也跟着读。",
+          "clip": "teacher-again"
+        },
+        {
+          "start": 44.61812,
+          "end": 46.49012,
+          "phase": "word",
+          "text": "you",
+          "clip": "you"
+        },
+        {
+          "start": 46.49012,
+          "end": 49.49012,
+          "phase": "echo-word",
+          "text": "再跟读一次",
+          "clip": null
+        },
+        {
+          "start": 49.49012,
+          "end": 55.03412,
+          "phase": "cue",
+          "text": "把单词放进一句话里。先听一遍，然后轮到你。",
+          "clip": "teacher-sentence"
+        },
+        {
+          "start": 55.03412,
+          "end": 56.90612,
+          "phase": "sentence",
+          "text": "You are my friend.",
+          "clip": "you-sentence"
+        },
+        {
+          "start": 56.90612,
+          "end": 61.40612,
+          "phase": "echo-sentence",
+          "text": "轮到你：把这句话说一遍",
+          "clip": null
+        },
+        {
+          "start": 61.40612,
+          "end": 68.12613,
+          "phase": "finish",
+          "text": "这一轮带读结束啦。你可以再听一次，也可以试试下面的找一找。",
+          "clip": "teacher-finish"
+        }
+      ],
+      "sentence": "you-sentence",
+      "words": [
+        {
+          "text": "You",
+          "start": 55.18132,
+          "end": 55.37582
+        },
+        {
+          "text": "are",
+          "start": 55.38962,
+          "end": 55.48682
+        },
+        {
+          "text": "my",
+          "start": 55.50082,
+          "end": 55.70912
+        },
+        {
+          "text": "friend.",
+          "start": 55.72302,
+          "end": 56.38962
+        }
+      ]
+    },
+    "to": {
+      "audio": "lesson-to",
+      "sound": "sound-u",
+      "group": "o",
+      "duration": 67.71813,
+      "steps": [
+        {
+          "start": 0,
+          "end": 4.2,
+          "phase": "listen",
+          "text": "先听这个单词，等一会儿，跟着一起读。",
+          "clip": "teacher-start"
+        },
+        {
+          "start": 4.2,
+          "end": 6.072,
+          "phase": "word",
+          "text": "to",
+          "clip": "to"
+        },
+        {
+          "start": 6.072,
+          "end": 23.376,
+          "phase": "focus",
+          "text": "看亮起来的元音字母。这个词单独读的时候，它的声音要特别记。嘴唇轻轻拢圆，听一听。读完整单词时，把尾音稍稍拉长。放进句子里，它有时会读得轻一些。",
+          "clip": "teacher-to"
+        },
+        {
+          "start": 23.376,
+          "end": 24.04612,
+          "phase": "sound",
+          "text": "o · 听这个声音",
+          "clip": "sound-u"
+        },
+        {
+          "start": 24.04612,
+          "end": 27.64612,
+          "phase": "cue",
+          "text": "轮到你：读一读这个声音",
+          "clip": "teacher-echo-sound"
+        },
+        {
+          "start": 27.64612,
+          "end": 30.14612,
+          "phase": "echo-sound",
+          "text": "轮到你：读一读这个声音",
+          "clip": null
+        },
+        {
+          "start": 30.14612,
+          "end": 35.59412,
+          "phase": "cue",
+          "text": "现在，把它放回单词里。先听，再跟着读。",
+          "clip": "teacher-blend"
+        },
+        {
+          "start": 35.59412,
+          "end": 37.46612,
+          "phase": "word",
+          "text": "to",
+          "clip": "to"
+        },
+        {
+          "start": 37.46612,
+          "end": 40.46612,
+          "phase": "echo-word",
+          "text": "轮到你：读一遍完整单词",
+          "clip": null
+        },
+        {
+          "start": 40.46612,
+          "end": 44.21012,
+          "phase": "cue",
+          "text": "再来一次。这次你也跟着读。",
+          "clip": "teacher-again"
+        },
+        {
+          "start": 44.21012,
+          "end": 46.08212,
+          "phase": "word",
+          "text": "to",
+          "clip": "to"
+        },
+        {
+          "start": 46.08212,
+          "end": 49.08212,
+          "phase": "echo-word",
+          "text": "再跟读一次",
+          "clip": null
+        },
+        {
+          "start": 49.08212,
+          "end": 54.62612,
+          "phase": "cue",
+          "text": "把单词放进一句话里。先听一遍，然后轮到你。",
+          "clip": "teacher-sentence"
+        },
+        {
+          "start": 54.62612,
+          "end": 56.49812,
+          "phase": "sentence",
+          "text": "Nice to meet you.",
+          "clip": "meet-sentence"
+        },
+        {
+          "start": 56.49812,
+          "end": 60.99812,
+          "phase": "echo-sentence",
+          "text": "轮到你：把这句话说一遍",
+          "clip": null
+        },
+        {
+          "start": 60.99812,
+          "end": 67.71813,
+          "phase": "finish",
+          "text": "这一轮带读结束啦。你可以再听一次，也可以试试下面的找一找。",
+          "clip": "teacher-finish"
+        }
+      ],
+      "sentence": "meet-sentence",
+      "words": [
+        {
+          "text": "Nice",
+          "start": 54.74562,
+          "end": 55.12062
+        },
+        {
+          "text": "to",
+          "start": 55.13442,
+          "end": 55.27332
+        },
+        {
+          "text": "meet",
+          "start": 55.28722,
+          "end": 55.59282
+        },
+        {
+          "text": "you.",
+          "start": 55.60662,
+          "end": 55.95382
+        }
+      ]
+    },
+    "lets": {
+      "audio": "lesson-lets",
+      "sound": "sound-s",
+      "group": "'s",
+      "duration": 66.388,
+      "steps": [
+        {
+          "start": 0,
+          "end": 4.2,
+          "phase": "listen",
+          "text": "先听这个单词，等一会儿，跟着一起读。",
+          "clip": "teacher-start"
+        },
+        {
+          "start": 4.2,
+          "end": 6.072,
+          "phase": "word",
+          "text": "let's",
+          "clip": "lets"
+        },
+        {
+          "start": 6.072,
+          "end": 22.536,
+          "phase": "focus",
+          "text": "注意结尾的小撇号和字母。小撇号自己不发音。最后这个字母，轻轻送气，不要在后面加一个额外的元音。听一听。这个词是让我们一起做一件事的邀请。",
+          "clip": "teacher-lets"
+        },
+        {
+          "start": 22.536,
+          "end": 22.716,
+          "phase": "sound",
+          "text": "'s · 听这个声音",
+          "clip": "sound-s"
+        },
+        {
+          "start": 22.716,
+          "end": 26.316,
+          "phase": "cue",
+          "text": "轮到你：读一读这个声音",
+          "clip": "teacher-echo-sound"
+        },
+        {
+          "start": 26.316,
+          "end": 28.816,
+          "phase": "echo-sound",
+          "text": "轮到你：读一读这个声音",
+          "clip": null
+        },
+        {
+          "start": 28.816,
+          "end": 34.264,
+          "phase": "cue",
+          "text": "现在，把它放回单词里。先听，再跟着读。",
+          "clip": "teacher-blend"
+        },
+        {
+          "start": 34.264,
+          "end": 36.136,
+          "phase": "word",
+          "text": "let's",
+          "clip": "lets"
+        },
+        {
+          "start": 36.136,
+          "end": 39.136,
+          "phase": "echo-word",
+          "text": "轮到你：读一遍完整单词",
+          "clip": null
+        },
+        {
+          "start": 39.136,
+          "end": 42.88,
+          "phase": "cue",
+          "text": "再来一次。这次你也跟着读。",
+          "clip": "teacher-again"
+        },
+        {
+          "start": 42.88,
+          "end": 44.752,
+          "phase": "word",
+          "text": "let's",
+          "clip": "lets"
+        },
+        {
+          "start": 44.752,
+          "end": 47.752,
+          "phase": "echo-word",
+          "text": "再跟读一次",
+          "clip": null
+        },
+        {
+          "start": 47.752,
+          "end": 53.296,
+          "phase": "cue",
+          "text": "把单词放进一句话里。先听一遍，然后轮到你。",
+          "clip": "teacher-sentence"
+        },
+        {
+          "start": 53.296,
+          "end": 55.168,
+          "phase": "sentence",
+          "text": "Let's be friends.",
+          "clip": "lets-sentence"
+        },
+        {
+          "start": 55.168,
+          "end": 59.668,
+          "phase": "echo-sentence",
+          "text": "轮到你：把这句话说一遍",
+          "clip": null
+        },
+        {
+          "start": 59.668,
+          "end": 66.388,
+          "phase": "finish",
+          "text": "这一轮带读结束啦。你可以再听一次，也可以试试下面的找一找。",
+          "clip": "teacher-finish"
+        }
+      ],
+      "sentence": "lets-sentence",
+      "words": [
+        {
+          "text": "Let's",
+          "start": 53.4015,
+          "end": 53.7627
+        },
+        {
+          "text": "be",
+          "start": 53.7765,
+          "end": 53.9293
+        },
+        {
+          "text": "friends.",
+          "start": 53.9432,
+          "end": 54.7071
+        }
+      ]
+    }
+  }
+}
