@@ -46,3 +46,7 @@
 - 多邻国的练习路径、故事、复习和变化题型：https://blog.duolingo.com/ways-to-practice-in-duolingo/
 - British Council Playtime 的听后录音对比、故事和拼写理解练习：https://learnenglish.britishcouncil.org/apps/learnenglish-kids-playtime
 - 以上提供一般设计思路；本项目故事、奖励经济与题目为独立设计，未复制其课程内容或美术资产。
+
+## 页面精简（art3）
+
+- 按用户确认，删除闯关页底部“想单独练几个词？”折叠入口，页面在欢迎营地结束。单词图鉴、我的复习和原有学习数据保持不变。
