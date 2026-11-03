@@ -15,15 +15,38 @@
     },
     {
       "id": "sound-ee",
-      "title": "En-uk-e.ogg",
       "ipa": "/iː/",
-      "author": "Missionary",
-      "sourcePage": "https://commons.wikimedia.org/wiki/File:En-uk-e.ogg",
-      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b6/En-uk-e.ogg",
-      "license": "Public domain",
-      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
-      "changes": "Extracted 0.470–0.890 s from single-vowel demonstration; 2 ms edge fades; gain x4; MP3 conversion. CC BY-SA 3.0 applies where specified.",
-      "notes": "UK recording of letter E, used only as an acoustically matching /iː/ reference, not as a rule that all e letters have that sound."
+      "provider": "Microsoft Edge online neural speech",
+      "voice": "en-GB-LibbyNeural",
+      "locale": "en-GB",
+      "generatedText": "E.",
+      "rate": "+0%",
+      "source": "User-approved clear-vowel-w18/accepted-libby-e.mp3",
+      "changes": {
+        "trimSeconds": [
+          0.15,
+          0.48
+        ],
+        "linearGain": 1.1480836097562805,
+        "edgeFadeSeconds": 0.003,
+        "pitchShift": false,
+        "timeStretch": false
+      },
+      "usage": "Standalone /i:/ reference for read ea and meet ee; not a general rule for all ea/ee spellings.",
+      "review": "User accepted isolated vowel and complete read teaching audition, 2026-11-03; professional phonetic review pending.",
+      "sourceSha256": "58eb874ee383229175a930f8ed30f1e7b495ffefa8daa24f0c9533618f66b9d9",
+      "retiredReference": {
+        "id": "sound-ee",
+        "title": "En-uk-e.ogg",
+        "ipa": "/iː/",
+        "author": "Missionary",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:En-uk-e.ogg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b6/En-uk-e.ogg",
+        "license": "Public domain",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "changes": "Extracted 0.470–0.890 s from single-vowel demonstration; 2 ms edge fades; gain x4; MP3 conversion. CC BY-SA 3.0 applies where specified.",
+        "notes": "UK recording of letter E, used only as an acoustically matching /iː/ reference, not as a rule that all e letters have that sound."
+      }
     },
     {
       "id": "sound-ay",

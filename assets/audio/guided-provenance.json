@@ -1,7 +1,7 @@
 {
   "method": "Sound each grapheme, connected phonation, natural word, child response. Stop intervals are preserved, continuants selectively lengthened.",
   "methodSource": "https://education.nsw.gov.au/teaching-and-learning/curriculum/english/planning-programming-and-assessing-english-k-6/phonic-knowledge/explicit-phonics-instruction-illustration-of-practice",
-  "English": "en-GB-SoniaNeural word models; meet pilot uses its approved continuous source. Isolated references for other words include general IPA; see phoneme-provenance.json.",
+  "English": "en-GB-SoniaNeural word models; meet pilot uses its approved continuous source. Isolated references for other words include general IPA; see phoneme-provenance.json. W18: only the isolated /i:/ in meet now uses user-approved Libby; existing Sonia blends and natural word retained.",
   "Chinese": "zh-CN-XiaoxiaoNeural; source-assets/guided-phonics",
   "cueTexts": {
     "f": "字母 F，发。",
@@ -152,7 +152,30 @@
           "start": 1.2157916666666666,
           "end": 1.4407916666666667
         }
-      ]
+      ],
+      "isolatedVowelUpdate": {
+        "id": "sound-ee",
+        "ipa": "/iː/",
+        "provider": "Microsoft Edge online neural speech",
+        "voice": "en-GB-LibbyNeural",
+        "locale": "en-GB",
+        "generatedText": "E.",
+        "rate": "+0%",
+        "source": "User-approved clear-vowel-w18/accepted-libby-e.mp3",
+        "changes": {
+          "trimSeconds": [
+            0.15,
+            0.48
+          ],
+          "linearGain": 1.1480836097562805,
+          "edgeFadeSeconds": 0.003,
+          "pitchShift": false,
+          "timeStretch": false
+        },
+        "usage": "Standalone /i:/ reference for read ea and meet ee; not a general rule for all ea/ee spellings.",
+        "review": "User accepted isolated vowel and complete read teaching audition, 2026-11-03; professional phonetic review pending.",
+        "sourceSha256": "58eb874ee383229175a930f8ed30f1e7b495ffefa8daa24f0c9533618f66b9d9"
+      }
     },
     "play": {
       "config": {
@@ -738,7 +761,7 @@
       ],
       "focus": 1,
       "hint": "ee 合起来读 /iː/。",
-      "duration": 19.777,
+      "duration": 19.882,
       "steps": [
         {
           "start": 0,
@@ -774,55 +797,55 @@
         },
         {
           "start": 5.198,
-          "end": 5.423,
+          "end": 5.528,
           "phase": "phoneme",
           "index": 1,
           "clip": "sound-ee",
           "text": "听这个音，再把声音接起来。"
         },
         {
-          "start": 5.423,
-          "end": 5.603,
+          "start": 5.528,
+          "end": 5.708,
           "phase": "gap",
           "index": 1,
           "clip": null,
           "text": ""
         },
         {
-          "start": 5.603,
-          "end": 7.571,
+          "start": 5.708,
+          "end": 7.676,
           "phase": "cue",
           "index": 2,
           "clip": null,
           "text": "t 对应这个声音。"
         },
         {
-          "start": 7.571,
-          "end": 7.711,
+          "start": 7.676,
+          "end": 7.816,
           "phase": "phoneme",
           "index": 2,
           "clip": "sound-t",
           "text": "听这个音，再把声音接起来。"
         },
         {
-          "start": 7.711,
-          "end": 7.891,
+          "start": 7.816,
+          "end": 7.996,
           "phase": "gap",
           "index": 2,
           "clip": null,
           "text": ""
         },
         {
-          "start": 7.891,
-          "end": 10.195,
+          "start": 7.996,
+          "end": 10.3,
           "phase": "cue",
           "index": null,
           "clip": null,
           "text": "声音接起来，慢慢读。"
         },
         {
-          "start": 10.195,
-          "end": 11.63579,
+          "start": 10.3,
+          "end": 11.74079,
           "phase": "connected",
           "index": null,
           "clip": null,
@@ -830,32 +853,32 @@
           "phones": [
             {
               "index": 0,
-              "start": 10.195,
-              "end": 10.65816
+              "start": 10.3,
+              "end": 10.76316
             },
             {
               "index": 1,
-              "start": 10.65816,
-              "end": 11.41079
+              "start": 10.76316,
+              "end": 11.51579
             },
             {
               "index": 2,
-              "start": 11.41079,
-              "end": 11.63579
+              "start": 11.51579,
+              "end": 11.74079
             }
           ]
         },
         {
-          "start": 11.63579,
-          "end": 11.98579,
+          "start": 11.74079,
+          "end": 12.09079,
           "phase": "gap",
           "index": null,
           "clip": null,
           "text": ""
         },
         {
-          "start": 11.98579,
-          "end": 12.995,
+          "start": 12.09079,
+          "end": 13.1,
           "phase": "connected",
           "index": null,
           "clip": null,
@@ -863,62 +886,63 @@
           "phones": [
             {
               "index": 0,
-              "start": 11.98579,
-              "end": 12.28454
+              "start": 12.09079,
+              "end": 12.38954
             },
             {
               "index": 1,
-              "start": 12.28454,
-              "end": 12.77
+              "start": 12.38954,
+              "end": 12.875
             },
             {
               "index": 2,
-              "start": 12.77,
-              "end": 12.995
+              "start": 12.875,
+              "end": 13.1
             }
           ]
         },
         {
-          "start": 12.995,
-          "end": 13.345,
+          "start": 13.1,
+          "end": 13.45,
           "phase": "gap",
           "index": null,
           "clip": null,
           "text": ""
         },
         {
-          "start": 13.345,
-          "end": 14.005,
+          "start": 13.45,
+          "end": 14.11,
           "phase": "word",
           "index": null,
           "clip": "meet",
           "text": "完整地读一遍。"
         },
         {
-          "start": 14.005,
-          "end": 16.117,
+          "start": 14.11,
+          "end": 16.222,
           "phase": "cue",
           "index": null,
           "clip": null,
           "text": "跟老师读一遍，再轮到你。"
         },
         {
-          "start": 16.117,
-          "end": 16.777,
+          "start": 16.222,
+          "end": 16.882,
           "phase": "word",
           "index": null,
           "clip": "meet",
           "text": "跟着读。"
         },
         {
-          "start": 16.777,
-          "end": 19.777,
+          "start": 16.882,
+          "end": 19.882,
           "phase": "echo",
           "index": null,
           "clip": null,
           "text": "轮到你，开口读一遍。"
         }
-      ]
+      ],
+      "isolatedVowelSample": "clear-vowel-w18"
     },
     "play": {
       "audio": "guided-play-v6",

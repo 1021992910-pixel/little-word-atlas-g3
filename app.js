@@ -42,7 +42,7 @@ let audioLoading=false;
 const audioBlobCache=new Map();
 function bufferedAudioSource(name){
   if(!audioBlobCache.has(name)){
-    const source=`./assets/audio/${name}.mp3`;
+    const source=`./assets/audio/${name}.mp3${['guided-meet-v6','sound-ee'].includes(name)?'?v=clear1':''}`;
     const pending=fetch(source).then(async response=>{
       if(!response.ok)throw new Error('Audio download failed');
       const bytes=await response.arrayBuffer();
