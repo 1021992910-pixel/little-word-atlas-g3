@@ -79,7 +79,7 @@ function adventureRenderTask(){
  const selected=[],bank=shuffle(q.parts||[...String(q.answer),...(q.extra||[])]);
  adventureSession={task:q.id,selected,bank,heard:adventureHeard.has(q.id),modelEnded:false,followAlong:false,recorded:false};
  const solved=!!run.answers[q.id];
- const questionAudio=q.audio?`<button type="button" class="adv-listen" data-adv-listen aria-label="${q.type==='build'?'听老师连续拼读示范':'听本题英式发音'}"><span aria-hidden="true">▶</span>${q.type==='build'?'听老师拼，再接起来':q.type==='speak'?'先听老师读一句':'听一听'}</button>`:'';
+ const questionAudio=q.audio?`<button type="button" class="adv-listen" data-adv-listen aria-label="${['build','spell'].includes(q.type)?'听完整单词':'听本题英式发音'}"><span aria-hidden="true">▶</span>${['build','spell'].includes(q.type)?'听单词':q.type==='speak'?'先听老师读一句':'听一听'}</button>`:'';
  let body='';
  if(q.type==='picture')body=`<div class="adv-picture-options">${shuffle(q.options).map(id=>`<button class="adv-picture-choice" data-adv-choice="${id}" ${solved?'disabled':''}>${adventureScene(id)}<span>${escapeHTML(SCENES[id].caption)}</span></button>`).join('')}</div>`;
  if(['choice','dialogue','gap'].includes(q.type))body=`${q.context?`<p class="adv-dialogue">${escapeHTML(q.context)}</p>`:''}${q.sentence?`<div class="adv-sentence">${escapeHTML(q.sentence).replace('___','<span class="adv-blank">?</span>')}</div><p class="adv-translation">${escapeHTML(q.zh)}</p>`:''}<div class="adv-choices">${shuffle(q.options).map((text,i)=>`<button data-adv-choice="${escapeHTML(text)}" ${solved?'disabled':''}><span>${i+1}</span>${escapeHTML(text)}</button>`).join('')}</div>`;

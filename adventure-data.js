@@ -7,16 +7,16 @@ const ADVENTURE_MISSIONS = [
   {id:'hear-happy',type:'picture',word:'happy',audio:'happy',prompt:'听一听，哪幅画能表示这个心情？',options:['meet','friend','happy'],answer:'happy',hint:'happy 表示高兴、快乐。'},
   {id:'hear-meet',type:'choice',word:'meet',audio:'meet-sentence',prompt:'听完整句话。小朋友正在做什么？',options:['第一次见面，友好地问候','邀请朋友踢球','说自己很开心'],answer:'第一次见面，友好地问候',hint:'Nice to meet you. 是认识新朋友时的问候。'}
  ]},
- {id:'sound',title:'修好拼读机',skill:'声音与拼读',icon:'🔧',scene:'lets',story:'飞船的拼读机缺了零件。听老师把声音接起来，再把字母零件排好。',done:'拼读机运转啦！下一个目的地：补给站。',tasks:[
-  {id:'blend-meet',type:'build',word:'meet',audio:'guided-meet-v6',prompt:'把声音零件接成 meet',parts:['m','ee','t'],answer:'meet',hint:'m → ee → t。ee 在这个词里发 /iː/，接起来读 meet。'},
-  {id:'blend-play',type:'build',word:'play',audio:'guided-play-v6',prompt:'听完示范，把 play 的零件接起来',parts:['p','l','ay'],answer:'play',hint:'p、l 各有一个声音；ay 在这里一起发 /eɪ/。'},
-  {id:'blend-friend',type:'build',word:'friend',audio:'guided-friend-v6',prompt:'给 friend 找回声音顺序',parts:['f','r','ie','n','d'],answer:'friend',hint:'特别记住：friend 里的 ie 发 /e/。它不是所有 ie 的通用读法。'}
+ {id:'sound',title:'修好拼读机',skill:'声音与拼读',icon:'🔧',scene:'lets',story:'飞船的拼读机缺了零件。先听清完整单词，再把声音零件排好。',done:'拼读机运转啦！下一个目的地：补给站。',tasks:[
+  {id:'blend-meet',type:'build',word:'meet',audio:'meet',prompt:'听单词，再拼出来',parts:['m','ee','t'],answer:'meet',hint:'中间的字母组合是一块声音零件，别把它拆开。'},
+  {id:'blend-play',type:'build',word:'play',audio:'play',prompt:'听单词，再拼出来',parts:['p','l','ay'],answer:'play',hint:'开头有两个辅音，听清后依次接上。'},
+  {id:'blend-friend',type:'build',word:'friend',audio:'friend',prompt:'听单词，再拼出来',parts:['f','r','ie','n','d'],answer:'friend',hint:'中间有一组需要特别记住的字母组合，再听一次，想想顺序。'}
  ]},
  {id:'supply',title:'装满单词补给',skill:'独立拼写',icon:'🎒',scene:'friend',story:'去欢迎派对的路还很长。把物资上的单词拼对，补给箱就能装上飞船。',done:'补给箱装满了！带着它们去修复句子桥。',tasks:[
-  {id:'spell-friend',type:'spell',word:'friend',audio:'friend',prompt:'为“朋友”补给箱拼出单词',answer:'friend',extra:['a'],hint:'friend 有六个字母，ie 的次序别颠倒。'},
-  {id:'spell-happy',type:'spell',word:'happy',audio:'happy',prompt:'拼出“高兴的；快乐的”',answer:'happy',extra:['i'],hint:'happy 中间有两个 p，结尾是 y。'},
-  {id:'spell-you',type:'spell',word:'you',audio:'you',prompt:'拼出“你；你们”',answer:'you',extra:['a'],hint:'you：先 y，再 o，最后 u。'},
-  {id:'spell-lets',type:'spell',word:'lets',audio:'lets',prompt:'拼出“让我们”，记得带上小撇号',answer:"let's",extra:['a'],hint:"let's 是 let us 的缩写，小撇号也要放进去。"}
+  {id:'spell-friend',type:'spell',word:'friend',audio:'friend',prompt:'为“朋友”补给箱拼出单词',answer:'friend',extra:['a'],hint:'中间两个元音字母的次序别颠倒。'},
+  {id:'spell-happy',type:'spell',word:'happy',audio:'happy',prompt:'拼出“高兴的；快乐的”',answer:'happy',extra:['i'],hint:'有一个辅音字母需要用两次，别漏掉。'},
+  {id:'spell-you',type:'spell',word:'you',audio:'you',prompt:'拼出“你；你们”',answer:'you',extra:['a'],hint:'先听开头，再听后面的声音，慢慢想。'},
+  {id:'spell-lets',type:'spell',word:'lets',audio:'lets',prompt:'拼出“让我们”，记得带上小撇号',answer:"let's",extra:['a'],hint:"别漏掉中间的小撇号。"}
  ]},
  {id:'bridge',title:'走过句子桥',skill:'句子理解',icon:'🌉',scene:'to',story:'桥上的句子少了几块石头。读懂整句话，找回关键词，让飞船安全通过。',done:'句子桥亮起来了！朋友广场就在前面。',tasks:[
   {id:'gap-meet',type:'gap',word:'meet',audio:'meet-sentence',prompt:'第一次见到新朋友，补全问候语',sentence:'Nice to ___ you.',zh:'很高兴认识你。',options:['meet','play','happy'],answer:'meet',hint:'“认识你”用 meet you。'},
