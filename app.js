@@ -42,7 +42,7 @@ let audioLoading=false;
 const audioBlobCache=new Map();
 function bufferedAudioSource(name){
   if(!audioBlobCache.has(name)){
-    const source=`./assets/audio/${name}.mp3${['guided-meet-v6','sound-ee'].includes(name)?'?v=clear1':''}`;
+    const source=`./assets/audio/${name}.mp3${name.startsWith('guided-')||name.startsWith('clear-')?'?v=clear2':name==='sound-ee'?'?v=clear1':''}`;
     const pending=fetch(source).then(async response=>{
       if(!response.ok)throw new Error('Audio download failed');
       const bytes=await response.arrayBuffer();

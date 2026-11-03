@@ -1,7 +1,7 @@
 {
   "method": "Sound each grapheme, connected phonation, natural word, child response. Stop intervals are preserved, continuants selectively lengthened.",
   "methodSource": "https://education.nsw.gov.au/teaching-and-learning/curriculum/english/planning-programming-and-assessing-english-k-6/phonic-knowledge/explicit-phonics-instruction-illustration-of-practice",
-  "English": "en-GB-SoniaNeural word models; meet pilot uses its approved continuous source. Isolated references for other words include general IPA; see phoneme-provenance.json. W18: only the isolated /i:/ in meet now uses user-approved Libby; existing Sonia blends and natural word retained.",
+  "English": "All active isolated phonemes use en-GB-LibbyNeural; whole words and both continuous blends preserve original Sonia PCM. Chinese cues unchanged. See clear-phonics-provenance.json.",
   "Chinese": "zh-CN-XiaoxiaoNeural; source-assets/guided-phonics",
   "cueTexts": {
     "f": "字母 F，发。",
@@ -476,7 +476,8 @@
           "end": 1.1810416666666668
         }
       ]
-    }
+    },
+    "clearAll": "clear-phonics-provenance.json"
   },
   "lessons": {
     "friend": {
@@ -489,18 +490,18 @@
         "d"
       ],
       "sounds": [
-        "sound-f",
-        "sound-r",
-        "sound-e",
-        "sound-n",
-        "sound-d"
+        "clear-f",
+        "clear-r",
+        "clear-e",
+        "clear-n",
+        "clear-d"
       ],
       "focus": 2,
       "hint": "ie 在 friend 里读 /e/，这里特别记。",
-      "duration": 25.24892,
+      "duration": 25.01392,
       "steps": [
         {
-          "start": 0,
+          "start": 0.0,
           "end": 1.968,
           "phase": "cue",
           "index": 0,
@@ -509,127 +510,132 @@
         },
         {
           "start": 1.968,
-          "end": 2.188,
+          "end": 2.113,
           "phase": "phoneme",
           "index": 0,
-          "clip": "sound-f",
-          "text": "听这个音，再把声音接起来。"
+          "clip": "clear-f",
+          "text": "听这个音，再把声音接起来。",
+          "voice": "en-GB-LibbyNeural"
         },
         {
-          "start": 2.188,
-          "end": 2.368,
+          "start": 2.113,
+          "end": 2.293,
           "phase": "gap",
           "index": 0,
           "clip": null,
           "text": ""
         },
         {
-          "start": 2.368,
-          "end": 4.264,
+          "start": 2.293,
+          "end": 4.189,
           "phase": "cue",
           "index": 1,
           "clip": null,
           "text": "r 对应这个声音。"
         },
         {
-          "start": 4.264,
-          "end": 4.434,
+          "start": 4.189,
+          "end": 4.274,
           "phase": "phoneme",
           "index": 1,
-          "clip": "sound-r",
-          "text": "听这个音，再把声音接起来。"
+          "clip": "clear-r",
+          "text": "听这个音，再把声音接起来。",
+          "voice": "en-GB-LibbyNeural"
         },
         {
-          "start": 4.434,
-          "end": 4.614,
+          "start": 4.274,
+          "end": 4.454,
           "phase": "gap",
           "index": 1,
           "clip": null,
           "text": ""
         },
         {
-          "start": 4.614,
-          "end": 8.622,
+          "start": 4.454,
+          "end": 8.462,
           "phase": "reminder",
           "index": 2,
           "clip": null,
           "text": "ie 在 friend 里读 /e/，这里特别记。"
         },
         {
-          "start": 8.622,
-          "end": 8.822,
+          "start": 8.462,
+          "end": 8.652,
           "phase": "phoneme",
           "index": 2,
-          "clip": "sound-e",
-          "text": "听这个音，再把声音接起来。"
+          "clip": "clear-e",
+          "text": "听这个音，再把声音接起来。",
+          "voice": "en-GB-LibbyNeural"
         },
         {
-          "start": 8.822,
-          "end": 9.002,
+          "start": 8.652,
+          "end": 8.832,
           "phase": "gap",
           "index": 2,
           "clip": null,
           "text": ""
         },
         {
-          "start": 9.002,
-          "end": 10.898,
+          "start": 8.832,
+          "end": 10.728,
           "phase": "cue",
           "index": 3,
           "clip": null,
           "text": "n 对应这个声音。"
         },
         {
-          "start": 10.898,
-          "end": 11.058,
+          "start": 10.728,
+          "end": 10.833,
           "phase": "phoneme",
           "index": 3,
-          "clip": "sound-n",
-          "text": "听这个音，再把声音接起来。"
+          "clip": "clear-n",
+          "text": "听这个音，再把声音接起来。",
+          "voice": "en-GB-LibbyNeural"
         },
         {
-          "start": 11.058,
-          "end": 11.238,
+          "start": 10.833,
+          "end": 11.013,
           "phase": "gap",
           "index": 3,
           "clip": null,
           "text": ""
         },
         {
-          "start": 11.238,
-          "end": 13.134,
+          "start": 11.013,
+          "end": 12.909,
           "phase": "cue",
           "index": 4,
           "clip": null,
           "text": "d 对应这个声音。"
         },
         {
-          "start": 13.134,
-          "end": 13.169,
+          "start": 12.909,
+          "end": 12.934,
           "phase": "phoneme",
           "index": 4,
-          "clip": "sound-d",
-          "text": "听这个音，再把声音接起来。"
+          "clip": "clear-d",
+          "text": "听这个音，再把声音接起来。",
+          "voice": "en-GB-LibbyNeural"
         },
         {
-          "start": 13.169,
-          "end": 13.349,
+          "start": 12.934,
+          "end": 13.114,
           "phase": "gap",
           "index": 4,
           "clip": null,
           "text": ""
         },
         {
-          "start": 13.349,
-          "end": 15.653,
+          "start": 13.114,
+          "end": 15.418,
           "phase": "cue",
           "index": null,
           "clip": null,
           "text": "声音接起来，慢慢读。"
         },
         {
-          "start": 15.653,
-          "end": 17.03942,
+          "start": 15.418,
+          "end": 16.80442,
           "phase": "connected",
           "index": null,
           "clip": null,
@@ -637,42 +643,42 @@
           "phones": [
             {
               "index": 0,
-              "start": 15.653,
-              "end": 15.80782
+              "start": 15.418,
+              "end": 15.57282
             },
             {
               "index": 1,
-              "start": 15.80782,
-              "end": 16.11745
+              "start": 15.57282,
+              "end": 15.88245
             },
             {
               "index": 2,
-              "start": 16.11745,
-              "end": 16.5819
+              "start": 15.88245,
+              "end": 16.3469
             },
             {
               "index": 3,
-              "start": 16.5819,
-              "end": 16.86942
+              "start": 16.3469,
+              "end": 16.63442
             },
             {
               "index": 4,
-              "start": 16.86942,
-              "end": 17.03942
+              "start": 16.63442,
+              "end": 16.80442
             }
           ]
         },
         {
-          "start": 17.03942,
-          "end": 17.38942,
+          "start": 16.80442,
+          "end": 17.15442,
           "phase": "gap",
           "index": null,
           "clip": null,
           "text": ""
         },
         {
-          "start": 17.38942,
-          "end": 18.34692,
+          "start": 17.15442,
+          "end": 18.11192,
           "phase": "connected",
           "index": null,
           "clip": null,
@@ -680,72 +686,75 @@
           "phones": [
             {
               "index": 0,
-              "start": 17.38942,
-              "end": 17.48964
+              "start": 17.15442,
+              "end": 17.25464
             },
             {
               "index": 1,
-              "start": 17.48964,
-              "end": 17.6901
+              "start": 17.25464,
+              "end": 17.4551
             },
             {
               "index": 2,
-              "start": 17.6901,
-              "end": 17.99078
+              "start": 17.4551,
+              "end": 17.75578
             },
             {
               "index": 3,
-              "start": 17.99078,
-              "end": 18.17692
+              "start": 17.75578,
+              "end": 17.94192
             },
             {
               "index": 4,
-              "start": 18.17692,
-              "end": 18.34692
+              "start": 17.94192,
+              "end": 18.11192
             }
           ]
         },
         {
-          "start": 18.34692,
-          "end": 18.69692,
+          "start": 18.11192,
+          "end": 18.46192,
           "phase": "gap",
           "index": null,
           "clip": null,
           "text": ""
         },
         {
-          "start": 18.69692,
-          "end": 19.41692,
+          "start": 18.46192,
+          "end": 19.18192,
           "phase": "word",
           "index": null,
           "clip": "friend",
           "text": "完整地读一遍。"
         },
         {
-          "start": 19.41692,
-          "end": 21.52892,
+          "start": 19.18192,
+          "end": 21.29392,
           "phase": "cue",
           "index": null,
           "clip": null,
           "text": "跟老师读一遍，再轮到你。"
         },
         {
-          "start": 21.52892,
-          "end": 22.24892,
+          "start": 21.29392,
+          "end": 22.01392,
           "phase": "word",
           "index": null,
           "clip": "friend",
           "text": "跟着读。"
         },
         {
-          "start": 22.24892,
-          "end": 25.24892,
+          "start": 22.01392,
+          "end": 25.01392,
           "phase": "echo",
           "index": null,
           "clip": null,
           "text": "轮到你，开口读一遍。"
         }
-      ]
+      ],
+      "isolatedPhonemeVoice": "en-GB-LibbyNeural",
+      "isolatedPhonemeRevision": "clear-all-w19",
+      "isolatedPhonemeMethod": "Only isolated phoneme PCM replaced; original cues, continuous blends, whole words and response gap retained. Highlight windows shifted by actual new sample lengths."
     },
     "meet": {
       "audio": "guided-meet-v6",
@@ -755,16 +764,16 @@
         "t"
       ],
       "sounds": [
-        "sound-m",
+        "clear-m",
         "sound-ee",
-        "sound-t"
+        "clear-t"
       ],
       "focus": 1,
       "hint": "ee 合起来读 /iː/。",
-      "duration": 19.882,
+      "duration": 19.737,
       "steps": [
         {
-          "start": 0,
+          "start": 0.0,
           "end": 1.92,
           "phase": "cue",
           "index": 0,
@@ -773,79 +782,82 @@
         },
         {
           "start": 1.92,
-          "end": 2.09,
+          "end": 2.005,
           "phase": "phoneme",
           "index": 0,
-          "clip": "sound-m",
-          "text": "听这个音，再把声音接起来。"
+          "clip": "clear-m",
+          "text": "听这个音，再把声音接起来。",
+          "voice": "en-GB-LibbyNeural"
         },
         {
-          "start": 2.09,
-          "end": 2.27,
+          "start": 2.005,
+          "end": 2.185,
           "phase": "gap",
           "index": 0,
           "clip": null,
           "text": ""
         },
         {
-          "start": 2.27,
-          "end": 5.198,
+          "start": 2.185,
+          "end": 5.113,
           "phase": "reminder",
           "index": 1,
           "clip": null,
           "text": "ee 合起来读 /iː/。"
         },
         {
-          "start": 5.198,
-          "end": 5.528,
+          "start": 5.113,
+          "end": 5.443,
           "phase": "phoneme",
           "index": 1,
           "clip": "sound-ee",
-          "text": "听这个音，再把声音接起来。"
+          "text": "听这个音，再把声音接起来。",
+          "voice": "en-GB-LibbyNeural"
         },
         {
-          "start": 5.528,
-          "end": 5.708,
+          "start": 5.443,
+          "end": 5.623,
           "phase": "gap",
           "index": 1,
           "clip": null,
           "text": ""
         },
         {
-          "start": 5.708,
-          "end": 7.676,
+          "start": 5.623,
+          "end": 7.591,
           "phase": "cue",
           "index": 2,
           "clip": null,
           "text": "t 对应这个声音。"
         },
         {
-          "start": 7.676,
-          "end": 7.816,
+          "start": 7.591,
+          "end": 7.671,
           "phase": "phoneme",
           "index": 2,
-          "clip": "sound-t",
-          "text": "听这个音，再把声音接起来。"
+          "clip": "clear-t",
+          "text": "听这个音，再把声音接起来。",
+          "voice": "en-GB-LibbyNeural"
         },
         {
-          "start": 7.816,
-          "end": 7.996,
+          "start": 7.671,
+          "end": 7.851,
           "phase": "gap",
           "index": 2,
           "clip": null,
           "text": ""
         },
         {
-          "start": 7.996,
-          "end": 10.3,
+          "start": 7.851,
+          "end": 10.155,
           "phase": "cue",
           "index": null,
           "clip": null,
           "text": "声音接起来，慢慢读。"
         },
         {
-          "start": 10.3,
-          "end": 11.74079,
+          "start": 10.155,
+          "end": 11.59579,
           "phase": "connected",
           "index": null,
           "clip": null,
@@ -853,32 +865,32 @@
           "phones": [
             {
               "index": 0,
-              "start": 10.3,
-              "end": 10.76316
+              "start": 10.155,
+              "end": 10.61816
             },
             {
               "index": 1,
-              "start": 10.76316,
-              "end": 11.51579
+              "start": 10.61816,
+              "end": 11.37079
             },
             {
               "index": 2,
-              "start": 11.51579,
-              "end": 11.74079
+              "start": 11.37079,
+              "end": 11.59579
             }
           ]
         },
         {
-          "start": 11.74079,
-          "end": 12.09079,
+          "start": 11.59579,
+          "end": 11.94579,
           "phase": "gap",
           "index": null,
           "clip": null,
           "text": ""
         },
         {
-          "start": 12.09079,
-          "end": 13.1,
+          "start": 11.94579,
+          "end": 12.955,
           "phase": "connected",
           "index": null,
           "clip": null,
@@ -886,63 +898,66 @@
           "phones": [
             {
               "index": 0,
-              "start": 12.09079,
-              "end": 12.38954
+              "start": 11.94579,
+              "end": 12.24454
             },
             {
               "index": 1,
-              "start": 12.38954,
-              "end": 12.875
+              "start": 12.24454,
+              "end": 12.73
             },
             {
               "index": 2,
-              "start": 12.875,
-              "end": 13.1
+              "start": 12.73,
+              "end": 12.955
             }
           ]
         },
         {
-          "start": 13.1,
-          "end": 13.45,
+          "start": 12.955,
+          "end": 13.305,
           "phase": "gap",
           "index": null,
           "clip": null,
           "text": ""
         },
         {
-          "start": 13.45,
-          "end": 14.11,
+          "start": 13.305,
+          "end": 13.965,
           "phase": "word",
           "index": null,
           "clip": "meet",
           "text": "完整地读一遍。"
         },
         {
-          "start": 14.11,
-          "end": 16.222,
+          "start": 13.965,
+          "end": 16.077,
           "phase": "cue",
           "index": null,
           "clip": null,
           "text": "跟老师读一遍，再轮到你。"
         },
         {
-          "start": 16.222,
-          "end": 16.882,
+          "start": 16.077,
+          "end": 16.737,
           "phase": "word",
           "index": null,
           "clip": "meet",
           "text": "跟着读。"
         },
         {
-          "start": 16.882,
-          "end": 19.882,
+          "start": 16.737,
+          "end": 19.737,
           "phase": "echo",
           "index": null,
           "clip": null,
           "text": "轮到你，开口读一遍。"
         }
       ],
-      "isolatedVowelSample": "clear-vowel-w18"
+      "isolatedVowelSample": "clear-vowel-w18",
+      "isolatedPhonemeVoice": "en-GB-LibbyNeural",
+      "isolatedPhonemeRevision": "clear-all-w19",
+      "isolatedPhonemeMethod": "Only isolated phoneme PCM replaced; original cues, continuous blends, whole words and response gap retained. Highlight windows shifted by actual new sample lengths."
     },
     "play": {
       "audio": "guided-play-v6",
@@ -952,16 +967,16 @@
         "ay"
       ],
       "sounds": [
-        "sound-p",
-        "sound-l",
-        "sound-ay"
+        "clear-p",
+        "clear-l",
+        "clear-ay"
       ],
       "focus": 2,
       "hint": "ay 在这里合起来读 /eɪ/。",
-      "duration": 19.04387,
+      "duration": 18.76983,
       "steps": [
         {
-          "start": 0,
+          "start": 0.0,
           "end": 1.968,
           "phase": "cue",
           "index": 0,
@@ -970,79 +985,82 @@
         },
         {
           "start": 1.968,
-          "end": 1.998,
+          "end": 2.008,
           "phase": "phoneme",
           "index": 0,
-          "clip": "sound-p",
-          "text": "听这个音，再把声音接起来。"
+          "clip": "clear-p",
+          "text": "听这个音，再把声音接起来。",
+          "voice": "en-GB-LibbyNeural"
         },
         {
-          "start": 1.998,
-          "end": 2.178,
+          "start": 2.008,
+          "end": 2.188,
           "phase": "gap",
           "index": 0,
           "clip": null,
           "text": ""
         },
         {
-          "start": 2.178,
-          "end": 4.122,
+          "start": 2.188,
+          "end": 4.132,
           "phase": "cue",
           "index": 1,
           "clip": null,
           "text": "l 对应这个声音。"
         },
         {
-          "start": 4.122,
-          "end": 4.262,
+          "start": 4.132,
+          "end": 4.217,
           "phase": "phoneme",
           "index": 1,
-          "clip": "sound-l",
-          "text": "听这个音，再把声音接起来。"
+          "clip": "clear-l",
+          "text": "听这个音，再把声音接起来。",
+          "voice": "en-GB-LibbyNeural"
         },
         {
-          "start": 4.262,
-          "end": 4.442,
+          "start": 4.217,
+          "end": 4.397,
           "phase": "gap",
           "index": 1,
           "clip": null,
           "text": ""
         },
         {
-          "start": 4.442,
-          "end": 6.938,
+          "start": 4.397,
+          "end": 6.893,
           "phase": "reminder",
           "index": 2,
           "clip": null,
           "text": "ay 在这里合起来读 /eɪ/。"
         },
         {
-          "start": 6.938,
-          "end": 7.51704,
+          "start": 6.893,
+          "end": 7.243,
           "phase": "phoneme",
           "index": 2,
-          "clip": "sound-ay",
-          "text": "听这个音，再把声音接起来。"
+          "clip": "clear-ay",
+          "text": "听这个音，再把声音接起来。",
+          "voice": "en-GB-LibbyNeural"
         },
         {
-          "start": 7.51704,
-          "end": 7.69704,
+          "start": 7.243,
+          "end": 7.423,
           "phase": "gap",
           "index": 2,
           "clip": null,
           "text": ""
         },
         {
-          "start": 7.69704,
-          "end": 10.00104,
+          "start": 7.423,
+          "end": 9.727,
           "phase": "cue",
           "index": null,
           "clip": null,
           "text": "声音接起来，慢慢读。"
         },
         {
-          "start": 10.00104,
-          "end": 11.21279,
+          "start": 9.727,
+          "end": 10.93875,
           "phase": "connected",
           "index": null,
           "clip": null,
@@ -1050,32 +1068,32 @@
           "phones": [
             {
               "index": 0,
-              "start": 10.00104,
-              "end": 10.09104
+              "start": 9.727,
+              "end": 9.817
             },
             {
               "index": 1,
-              "start": 10.09104,
-              "end": 10.267
+              "start": 9.817,
+              "end": 9.99296
             },
             {
               "index": 2,
-              "start": 10.267,
-              "end": 11.21279
+              "start": 9.99296,
+              "end": 10.93875
             }
           ]
         },
         {
-          "start": 11.21279,
-          "end": 11.56279,
+          "start": 10.93875,
+          "end": 11.28875,
           "phase": "gap",
           "index": null,
           "clip": null,
           "text": ""
         },
         {
-          "start": 11.56279,
-          "end": 12.38187,
+          "start": 11.28875,
+          "end": 12.10783,
           "phase": "connected",
           "index": null,
           "clip": null,
@@ -1083,62 +1101,65 @@
           "phones": [
             {
               "index": 0,
-              "start": 11.56279,
-              "end": 11.65279
+              "start": 11.28875,
+              "end": 11.37875
             },
             {
               "index": 1,
-              "start": 11.65279,
-              "end": 11.76716
+              "start": 11.37875,
+              "end": 11.49312
             },
             {
               "index": 2,
-              "start": 11.76716,
-              "end": 12.38187
+              "start": 11.49312,
+              "end": 12.10783
             }
           ]
         },
         {
-          "start": 12.38187,
-          "end": 12.73187,
+          "start": 12.10783,
+          "end": 12.45783,
           "phase": "gap",
           "index": null,
           "clip": null,
           "text": ""
         },
         {
-          "start": 12.73187,
-          "end": 13.33187,
+          "start": 12.45783,
+          "end": 13.05783,
           "phase": "word",
           "index": null,
           "clip": "play",
           "text": "完整地读一遍。"
         },
         {
-          "start": 13.33187,
-          "end": 15.44387,
+          "start": 13.05783,
+          "end": 15.16983,
           "phase": "cue",
           "index": null,
           "clip": null,
           "text": "跟老师读一遍，再轮到你。"
         },
         {
-          "start": 15.44387,
-          "end": 16.04387,
+          "start": 15.16983,
+          "end": 15.76983,
           "phase": "word",
           "index": null,
           "clip": "play",
           "text": "跟着读。"
         },
         {
-          "start": 16.04387,
-          "end": 19.04387,
+          "start": 15.76983,
+          "end": 18.76983,
           "phase": "echo",
           "index": null,
           "clip": null,
           "text": "轮到你，开口读一遍。"
         }
-      ]
+      ],
+      "isolatedPhonemeVoice": "en-GB-LibbyNeural",
+      "isolatedPhonemeRevision": "clear-all-w19",
+      "isolatedPhonemeMethod": "Only isolated phoneme PCM replaced; original cues, continuous blends, whole words and response gap retained. Highlight windows shifted by actual new sample lengths."
     },
     "happy": {
       "audio": "guided-happy-v6",
@@ -1149,17 +1170,17 @@
         "y"
       ],
       "sounds": [
-        "sound-h",
-        "sound-a",
-        "sound-p",
-        "sound-i"
+        "clear-h",
+        "clear-a",
+        "clear-p",
+        "clear-i-short"
       ],
       "focus": 3,
       "hint": "pp 只发一个音；happy 有两小拍，词尾 y 轻轻收住。",
-      "duration": 21.83896,
+      "duration": 21.72896,
       "steps": [
         {
-          "start": 0,
+          "start": 0.0,
           "end": 2.04,
           "phase": "cue",
           "index": 0,
@@ -1168,103 +1189,107 @@
         },
         {
           "start": 2.04,
-          "end": 2.17,
+          "end": 2.12,
           "phase": "phoneme",
           "index": 0,
-          "clip": "sound-h",
-          "text": "听这个音，再把声音接起来。"
+          "clip": "clear-h",
+          "text": "听这个音，再把声音接起来。",
+          "voice": "en-GB-LibbyNeural"
         },
         {
-          "start": 2.17,
-          "end": 2.35,
+          "start": 2.12,
+          "end": 2.3,
           "phase": "gap",
           "index": 0,
           "clip": null,
           "text": ""
         },
         {
-          "start": 2.35,
-          "end": 4.246,
+          "start": 2.3,
+          "end": 4.196,
           "phase": "cue",
           "index": 1,
           "clip": null,
           "text": "a 对应这个声音。"
         },
         {
-          "start": 4.246,
-          "end": 4.476,
+          "start": 4.196,
+          "end": 4.351,
           "phase": "phoneme",
           "index": 1,
-          "clip": "sound-a",
-          "text": "听这个音，再把声音接起来。"
+          "clip": "clear-a",
+          "text": "听这个音，再把声音接起来。",
+          "voice": "en-GB-LibbyNeural"
         },
         {
-          "start": 4.476,
-          "end": 4.656,
+          "start": 4.351,
+          "end": 4.531,
           "phase": "gap",
           "index": 1,
           "clip": null,
           "text": ""
         },
         {
-          "start": 4.656,
-          "end": 7.56,
+          "start": 4.531,
+          "end": 7.435,
           "phase": "cue",
           "index": 2,
           "clip": null,
           "text": "pp 对应这个声音。"
         },
         {
-          "start": 7.56,
-          "end": 7.59,
+          "start": 7.435,
+          "end": 7.475,
           "phase": "phoneme",
           "index": 2,
-          "clip": "sound-p",
-          "text": "听这个音，再把声音接起来。"
+          "clip": "clear-p",
+          "text": "听这个音，再把声音接起来。",
+          "voice": "en-GB-LibbyNeural"
         },
         {
-          "start": 7.59,
-          "end": 7.77,
+          "start": 7.475,
+          "end": 7.655,
           "phase": "gap",
           "index": 2,
           "clip": null,
           "text": ""
         },
         {
-          "start": 7.77,
-          "end": 10.338,
+          "start": 7.655,
+          "end": 10.223,
           "phase": "reminder",
           "index": 3,
           "clip": null,
           "text": "pp 只发一个音；happy 有两小拍，词尾 y 轻轻收住。"
         },
         {
-          "start": 10.338,
-          "end": 10.498,
+          "start": 10.223,
+          "end": 10.388,
           "phase": "phoneme",
           "index": 3,
-          "clip": "sound-i",
-          "text": "听这个音，再把声音接起来。"
+          "clip": "clear-i-short",
+          "text": "听这个音，再把声音接起来。",
+          "voice": "en-GB-LibbyNeural"
         },
         {
-          "start": 10.498,
-          "end": 10.678,
+          "start": 10.388,
+          "end": 10.568,
           "phase": "gap",
           "index": 3,
           "clip": null,
           "text": ""
         },
         {
-          "start": 10.678,
-          "end": 12.982,
+          "start": 10.568,
+          "end": 12.872,
           "phase": "cue",
           "index": null,
           "clip": null,
           "text": "声音接起来，慢慢读。"
         },
         {
-          "start": 12.982,
-          "end": 13.99196,
+          "start": 12.872,
+          "end": 13.88196,
           "phase": "connected",
           "index": null,
           "clip": null,
@@ -1272,37 +1297,37 @@
           "phones": [
             {
               "index": 0,
-              "start": 12.982,
-              "end": 13.25733
+              "start": 12.872,
+              "end": 13.14733
             },
             {
               "index": 1,
-              "start": 13.25733,
-              "end": 13.60775
+              "start": 13.14733,
+              "end": 13.49775
             },
             {
               "index": 2,
-              "start": 13.60775,
-              "end": 13.70775
+              "start": 13.49775,
+              "end": 13.59775
             },
             {
               "index": 3,
-              "start": 13.70775,
-              "end": 13.99196
+              "start": 13.59775,
+              "end": 13.88196
             }
           ]
         },
         {
-          "start": 13.99196,
-          "end": 14.34196,
+          "start": 13.88196,
+          "end": 14.23196,
           "phase": "gap",
           "index": null,
           "clip": null,
           "text": ""
         },
         {
-          "start": 14.34196,
-          "end": 15.13696,
+          "start": 14.23196,
+          "end": 15.02696,
           "phase": "connected",
           "index": null,
           "clip": null,
@@ -1310,67 +1335,70 @@
           "phones": [
             {
               "index": 0,
-              "start": 14.34196,
-              "end": 14.52896
+              "start": 14.23196,
+              "end": 14.41896
             },
             {
               "index": 1,
-              "start": 14.52896,
-              "end": 14.76696
+              "start": 14.41896,
+              "end": 14.65696
             },
             {
               "index": 2,
-              "start": 14.76696,
-              "end": 14.86696
+              "start": 14.65696,
+              "end": 14.75696
             },
             {
               "index": 3,
-              "start": 14.86696,
-              "end": 15.13696
+              "start": 14.75696,
+              "end": 15.02696
             }
           ]
         },
         {
-          "start": 15.13696,
-          "end": 15.48696,
+          "start": 15.02696,
+          "end": 15.37696,
           "phase": "gap",
           "index": null,
           "clip": null,
           "text": ""
         },
         {
-          "start": 15.48696,
-          "end": 16.10696,
+          "start": 15.37696,
+          "end": 15.99696,
           "phase": "word",
           "index": null,
           "clip": "happy",
           "text": "完整地读一遍。"
         },
         {
-          "start": 16.10696,
-          "end": 18.21896,
+          "start": 15.99696,
+          "end": 18.10896,
           "phase": "cue",
           "index": null,
           "clip": null,
           "text": "跟老师读一遍，再轮到你。"
         },
         {
-          "start": 18.21896,
-          "end": 18.83896,
+          "start": 18.10896,
+          "end": 18.72896,
           "phase": "word",
           "index": null,
           "clip": "happy",
           "text": "跟着读。"
         },
         {
-          "start": 18.83896,
-          "end": 21.83896,
+          "start": 18.72896,
+          "end": 21.72896,
           "phase": "echo",
           "index": null,
           "clip": null,
           "text": "轮到你，开口读一遍。"
         }
-      ]
+      ],
+      "isolatedPhonemeVoice": "en-GB-LibbyNeural",
+      "isolatedPhonemeRevision": "clear-all-w19",
+      "isolatedPhonemeMethod": "Only isolated phoneme PCM replaced; original cues, continuous blends, whole words and response gap retained. Highlight windows shifted by actual new sample lengths."
     },
     "you": {
       "audio": "guided-you-v6",
@@ -1379,15 +1407,15 @@
         "ou"
       ],
       "sounds": [
-        "sound-j",
-        "sound-u"
+        "clear-j",
+        "clear-u"
       ],
       "focus": 1,
       "hint": "ou 在 you 里读 /uː/，这里特别记。",
-      "duration": 17.2945,
+      "duration": 17.1845,
       "steps": [
         {
-          "start": 0,
+          "start": 0.0,
           "end": 2.4,
           "phase": "cue",
           "index": 0,
@@ -1396,55 +1424,57 @@
         },
         {
           "start": 2.4,
-          "end": 2.56,
+          "end": 2.48,
           "phase": "phoneme",
           "index": 0,
-          "clip": "sound-j",
-          "text": "听这个音，再把声音接起来。"
+          "clip": "clear-j",
+          "text": "听这个音，再把声音接起来。",
+          "voice": "en-GB-LibbyNeural"
         },
         {
-          "start": 2.56,
-          "end": 2.74,
+          "start": 2.48,
+          "end": 2.66,
           "phase": "gap",
           "index": 0,
           "clip": null,
           "text": ""
         },
         {
-          "start": 2.74,
-          "end": 5.476,
+          "start": 2.66,
+          "end": 5.396,
           "phase": "reminder",
           "index": 1,
           "clip": null,
           "text": "ou 在 you 里读 /uː/，这里特别记。"
         },
         {
-          "start": 5.476,
-          "end": 5.856,
+          "start": 5.396,
+          "end": 5.746,
           "phase": "phoneme",
           "index": 1,
-          "clip": "sound-u",
-          "text": "听这个音，再把声音接起来。"
+          "clip": "clear-u",
+          "text": "听这个音，再把声音接起来。",
+          "voice": "en-GB-LibbyNeural"
         },
         {
-          "start": 5.856,
-          "end": 6.036,
+          "start": 5.746,
+          "end": 5.926,
           "phase": "gap",
           "index": 1,
           "clip": null,
           "text": ""
         },
         {
-          "start": 6.036,
-          "end": 8.34,
+          "start": 5.926,
+          "end": 8.23,
           "phase": "cue",
           "index": null,
           "clip": null,
           "text": "声音接起来，慢慢读。"
         },
         {
-          "start": 8.34,
-          "end": 9.59667,
+          "start": 8.23,
+          "end": 9.48667,
           "phase": "connected",
           "index": null,
           "clip": null,
@@ -1452,27 +1482,27 @@
           "phones": [
             {
               "index": 0,
-              "start": 8.34,
-              "end": 8.61926
+              "start": 8.23,
+              "end": 8.50926
             },
             {
               "index": 1,
-              "start": 8.61926,
-              "end": 9.59667
+              "start": 8.50926,
+              "end": 9.48667
             }
           ]
         },
         {
-          "start": 9.59667,
-          "end": 9.94667,
+          "start": 9.48667,
+          "end": 9.83667,
           "phase": "gap",
           "index": null,
           "clip": null,
           "text": ""
         },
         {
-          "start": 9.94667,
-          "end": 10.7525,
+          "start": 9.83667,
+          "end": 10.6425,
           "phase": "connected",
           "index": null,
           "clip": null,
@@ -1480,57 +1510,60 @@
           "phones": [
             {
               "index": 0,
-              "start": 9.94667,
-              "end": 10.12574
+              "start": 9.83667,
+              "end": 10.01574
             },
             {
               "index": 1,
-              "start": 10.12574,
-              "end": 10.7525
+              "start": 10.01574,
+              "end": 10.6425
             }
           ]
         },
         {
-          "start": 10.7525,
-          "end": 11.1025,
+          "start": 10.6425,
+          "end": 10.9925,
           "phase": "gap",
           "index": null,
           "clip": null,
           "text": ""
         },
         {
-          "start": 11.1025,
-          "end": 11.6425,
+          "start": 10.9925,
+          "end": 11.5325,
           "phase": "word",
           "index": null,
           "clip": "you",
           "text": "完整地读一遍。"
         },
         {
-          "start": 11.6425,
-          "end": 13.7545,
+          "start": 11.5325,
+          "end": 13.6445,
           "phase": "cue",
           "index": null,
           "clip": null,
           "text": "跟老师读一遍，再轮到你。"
         },
         {
-          "start": 13.7545,
-          "end": 14.2945,
+          "start": 13.6445,
+          "end": 14.1845,
           "phase": "word",
           "index": null,
           "clip": "you",
           "text": "跟着读。"
         },
         {
-          "start": 14.2945,
-          "end": 17.2945,
+          "start": 14.1845,
+          "end": 17.1845,
           "phase": "echo",
           "index": null,
           "clip": null,
           "text": "轮到你，开口读一遍。"
         }
-      ]
+      ],
+      "isolatedPhonemeVoice": "en-GB-LibbyNeural",
+      "isolatedPhonemeRevision": "clear-all-w19",
+      "isolatedPhonemeMethod": "Only isolated phoneme PCM replaced; original cues, continuous blends, whole words and response gap retained. Highlight windows shifted by actual new sample lengths."
     },
     "to": {
       "audio": "guided-to-v6",
@@ -1539,15 +1572,15 @@
         "o"
       ],
       "sounds": [
-        "sound-t",
-        "sound-u"
+        "clear-t",
+        "clear-u"
       ],
       "focus": 1,
       "hint": "to 单独读时，o 读 /uː/，这里特别记。",
-      "duration": 15.99129,
+      "duration": 16.00729,
       "steps": [
         {
-          "start": 0,
+          "start": 0.0,
           "end": 1.968,
           "phase": "cue",
           "index": 0,
@@ -1556,55 +1589,57 @@
         },
         {
           "start": 1.968,
-          "end": 2.002,
+          "end": 2.048,
           "phase": "phoneme",
           "index": 0,
-          "clip": "sound-t",
-          "text": "听这个音，再把声音接起来。"
+          "clip": "clear-t",
+          "text": "听这个音，再把声音接起来。",
+          "voice": "en-GB-LibbyNeural"
         },
         {
-          "start": 2.002,
-          "end": 2.182,
+          "start": 2.048,
+          "end": 2.228,
           "phase": "gap",
           "index": 0,
           "clip": null,
           "text": ""
         },
         {
-          "start": 2.182,
-          "end": 4.534,
+          "start": 2.228,
+          "end": 4.58,
           "phase": "reminder",
           "index": 1,
           "clip": null,
           "text": "to 单独读时，o 读 /uː/，这里特别记。"
         },
         {
-          "start": 4.534,
-          "end": 4.914,
+          "start": 4.58,
+          "end": 4.93,
           "phase": "phoneme",
           "index": 1,
-          "clip": "sound-u",
-          "text": "听这个音，再把声音接起来。"
+          "clip": "clear-u",
+          "text": "听这个音，再把声音接起来。",
+          "voice": "en-GB-LibbyNeural"
         },
         {
-          "start": 4.914,
-          "end": 5.094,
+          "start": 4.93,
+          "end": 5.11,
           "phase": "gap",
           "index": 1,
           "clip": null,
           "text": ""
         },
         {
-          "start": 5.094,
-          "end": 7.398,
+          "start": 5.11,
+          "end": 7.414,
           "phase": "cue",
           "index": null,
           "clip": null,
           "text": "声音接起来，慢慢读。"
         },
         {
-          "start": 7.398,
-          "end": 8.44679,
+          "start": 7.414,
+          "end": 8.46279,
           "phase": "connected",
           "index": null,
           "clip": null,
@@ -1612,27 +1647,27 @@
           "phones": [
             {
               "index": 0,
-              "start": 7.398,
-              "end": 7.518
+              "start": 7.414,
+              "end": 7.534
             },
             {
               "index": 1,
-              "start": 7.518,
-              "end": 8.44679
+              "start": 7.534,
+              "end": 8.46279
             }
           ]
         },
         {
-          "start": 8.44679,
-          "end": 8.79679,
+          "start": 8.46279,
+          "end": 8.81279,
           "phase": "gap",
           "index": null,
           "clip": null,
           "text": ""
         },
         {
-          "start": 8.79679,
-          "end": 9.52929,
+          "start": 8.81279,
+          "end": 9.54529,
           "phase": "connected",
           "index": null,
           "clip": null,
@@ -1640,57 +1675,60 @@
           "phones": [
             {
               "index": 0,
-              "start": 8.79679,
-              "end": 8.91679
+              "start": 8.81279,
+              "end": 8.93279
             },
             {
               "index": 1,
-              "start": 8.91679,
-              "end": 9.52929
+              "start": 8.93279,
+              "end": 9.54529
             }
           ]
         },
         {
-          "start": 9.52929,
-          "end": 9.87929,
+          "start": 9.54529,
+          "end": 9.89529,
           "phase": "gap",
           "index": null,
           "clip": null,
           "text": ""
         },
         {
-          "start": 9.87929,
-          "end": 10.37929,
+          "start": 9.89529,
+          "end": 10.39529,
           "phase": "word",
           "index": null,
           "clip": "to",
           "text": "完整地读一遍。"
         },
         {
-          "start": 10.37929,
-          "end": 12.49129,
+          "start": 10.39529,
+          "end": 12.50729,
           "phase": "cue",
           "index": null,
           "clip": null,
           "text": "跟老师读一遍，再轮到你。"
         },
         {
-          "start": 12.49129,
-          "end": 12.99129,
+          "start": 12.50729,
+          "end": 13.00729,
           "phase": "word",
           "index": null,
           "clip": "to",
           "text": "跟着读。"
         },
         {
-          "start": 12.99129,
-          "end": 15.99129,
+          "start": 13.00729,
+          "end": 16.00729,
           "phase": "echo",
           "index": null,
           "clip": null,
           "text": "轮到你，开口读一遍。"
         }
-      ]
+      ],
+      "isolatedPhonemeVoice": "en-GB-LibbyNeural",
+      "isolatedPhonemeRevision": "clear-all-w19",
+      "isolatedPhonemeMethod": "Only isolated phoneme PCM replaced; original cues, continuous blends, whole words and response gap retained. Highlight windows shifted by actual new sample lengths."
     },
     "lets": {
       "audio": "guided-lets-v6",
@@ -1701,17 +1739,17 @@
         "'s"
       ],
       "sounds": [
-        "sound-l",
-        "sound-e",
-        "sound-t",
-        "sound-s"
+        "clear-l",
+        "clear-e",
+        "clear-t",
+        "clear-s"
       ],
       "focus": 3,
       "hint": "小撇号不发音，这里的 s 读 /s/。",
-      "duration": 21.82867,
+      "duration": 21.79467,
       "steps": [
         {
-          "start": 0,
+          "start": 0.0,
           "end": 1.944,
           "phase": "cue",
           "index": 0,
@@ -1720,103 +1758,107 @@
         },
         {
           "start": 1.944,
-          "end": 2.084,
+          "end": 2.029,
           "phase": "phoneme",
           "index": 0,
-          "clip": "sound-l",
-          "text": "听这个音，再把声音接起来。"
+          "clip": "clear-l",
+          "text": "听这个音，再把声音接起来。",
+          "voice": "en-GB-LibbyNeural"
         },
         {
-          "start": 2.084,
-          "end": 2.264,
+          "start": 2.029,
+          "end": 2.209,
           "phase": "gap",
           "index": 0,
           "clip": null,
           "text": ""
         },
         {
-          "start": 2.264,
-          "end": 4.184,
+          "start": 2.209,
+          "end": 4.129,
           "phase": "cue",
           "index": 1,
           "clip": null,
           "text": "e 对应这个声音。"
         },
         {
-          "start": 4.184,
-          "end": 4.384,
+          "start": 4.129,
+          "end": 4.319,
           "phase": "phoneme",
           "index": 1,
-          "clip": "sound-e",
-          "text": "听这个音，再把声音接起来。"
+          "clip": "clear-e",
+          "text": "听这个音，再把声音接起来。",
+          "voice": "en-GB-LibbyNeural"
         },
         {
-          "start": 4.384,
-          "end": 4.564,
+          "start": 4.319,
+          "end": 4.499,
           "phase": "gap",
           "index": 1,
           "clip": null,
           "text": ""
         },
         {
-          "start": 4.564,
-          "end": 6.532,
+          "start": 4.499,
+          "end": 6.467,
           "phase": "cue",
           "index": 2,
           "clip": null,
           "text": "t 对应这个声音。"
         },
         {
-          "start": 6.532,
-          "end": 6.566,
+          "start": 6.467,
+          "end": 6.547,
           "phase": "phoneme",
           "index": 2,
-          "clip": "sound-t",
-          "text": "听这个音，再把声音接起来。"
+          "clip": "clear-t",
+          "text": "听这个音，再把声音接起来。",
+          "voice": "en-GB-LibbyNeural"
         },
         {
-          "start": 6.566,
-          "end": 6.746,
+          "start": 6.547,
+          "end": 6.727,
           "phase": "gap",
           "index": 2,
           "clip": null,
           "text": ""
         },
         {
-          "start": 6.746,
-          "end": 9.962,
+          "start": 6.727,
+          "end": 9.943,
           "phase": "reminder",
           "index": 3,
           "clip": null,
           "text": "小撇号不发音，这里的 s 读 /s/。"
         },
         {
-          "start": 9.962,
-          "end": 10.142,
+          "start": 9.943,
+          "end": 10.108,
           "phase": "phoneme",
           "index": 3,
-          "clip": "sound-s",
-          "text": "听这个音，再把声音接起来。"
+          "clip": "clear-s",
+          "text": "听这个音，再把声音接起来。",
+          "voice": "en-GB-LibbyNeural"
         },
         {
-          "start": 10.142,
-          "end": 10.322,
+          "start": 10.108,
+          "end": 10.288,
           "phase": "gap",
           "index": 3,
           "clip": null,
           "text": ""
         },
         {
-          "start": 10.322,
-          "end": 12.626,
+          "start": 10.288,
+          "end": 12.592,
           "phase": "cue",
           "index": null,
           "clip": null,
           "text": "声音接起来，慢慢读。"
         },
         {
-          "start": 12.626,
-          "end": 13.80704,
+          "start": 12.592,
+          "end": 13.77304,
           "phase": "connected",
           "index": null,
           "clip": null,
@@ -1824,37 +1866,37 @@
           "phones": [
             {
               "index": 0,
-              "start": 12.626,
-              "end": 12.95023
+              "start": 12.592,
+              "end": 12.91623
             },
             {
               "index": 1,
-              "start": 12.95023,
-              "end": 13.29608
+              "start": 12.91623,
+              "end": 13.26208
             },
             {
               "index": 2,
-              "start": 13.29608,
-              "end": 13.43608
+              "start": 13.26208,
+              "end": 13.40208
             },
             {
               "index": 3,
-              "start": 13.43608,
-              "end": 13.80704
+              "start": 13.40208,
+              "end": 13.77304
             }
           ]
         },
         {
-          "start": 13.80704,
-          "end": 14.15704,
+          "start": 13.77304,
+          "end": 14.12304,
           "phase": "gap",
           "index": null,
           "clip": null,
           "text": ""
         },
         {
-          "start": 14.15704,
-          "end": 15.00667,
+          "start": 14.12304,
+          "end": 14.97267,
           "phase": "connected",
           "index": null,
           "clip": null,
@@ -1862,67 +1904,70 @@
           "phones": [
             {
               "index": 0,
-              "start": 14.15704,
-              "end": 14.37589
+              "start": 14.12304,
+              "end": 14.34189
             },
             {
               "index": 1,
-              "start": 14.37589,
-              "end": 14.60933
+              "start": 14.34189,
+              "end": 14.57533
             },
             {
               "index": 2,
-              "start": 14.60933,
-              "end": 14.74933
+              "start": 14.57533,
+              "end": 14.71533
             },
             {
               "index": 3,
-              "start": 14.74933,
-              "end": 15.00667
+              "start": 14.71533,
+              "end": 14.97267
             }
           ]
         },
         {
-          "start": 15.00667,
-          "end": 15.35667,
+          "start": 14.97267,
+          "end": 15.32267,
           "phase": "gap",
           "index": null,
           "clip": null,
           "text": ""
         },
         {
-          "start": 15.35667,
-          "end": 16.03667,
+          "start": 15.32267,
+          "end": 16.00267,
           "phase": "word",
           "index": null,
           "clip": "lets",
           "text": "完整地读一遍。"
         },
         {
-          "start": 16.03667,
-          "end": 18.14867,
+          "start": 16.00267,
+          "end": 18.11467,
           "phase": "cue",
           "index": null,
           "clip": null,
           "text": "跟老师读一遍，再轮到你。"
         },
         {
-          "start": 18.14867,
-          "end": 18.82867,
+          "start": 18.11467,
+          "end": 18.79467,
           "phase": "word",
           "index": null,
           "clip": "lets",
           "text": "跟着读。"
         },
         {
-          "start": 18.82867,
-          "end": 21.82867,
+          "start": 18.79467,
+          "end": 21.79467,
           "phase": "echo",
           "index": null,
           "clip": null,
           "text": "轮到你，开口读一遍。"
         }
-      ]
+      ],
+      "isolatedPhonemeVoice": "en-GB-LibbyNeural",
+      "isolatedPhonemeRevision": "clear-all-w19",
+      "isolatedPhonemeMethod": "Only isolated phoneme PCM replaced; original cues, continuous blends, whole words and response gap retained. Highlight windows shifted by actual new sample lengths."
     }
   },
   "teacherReview": "not completed"

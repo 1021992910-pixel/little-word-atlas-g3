@@ -1,0 +1,640 @@
+{
+  "revision": "clear-all-w19",
+  "provider": "Microsoft Edge online neural speech",
+  "isolatedVoice": "en-GB-LibbyNeural",
+  "wholeWordVoice": "en-GB-SoniaNeural",
+  "ChineseCueVoice": "zh-CN-XiaoxiaoNeural",
+  "sources": [
+    {
+      "id": "clear-a",
+      "ipa": "/æ/",
+      "voice": "en-GB-LibbyNeural",
+      "locale": "en-GB",
+      "generatedText": "At.",
+      "rate": "-10%",
+      "selection": [
+        0.205,
+        0.36
+      ],
+      "duration": 0.155,
+      "linearGain": 0.7964161274265804,
+      "alignment": [],
+      "method": "Manually inspected carrier spectral transition; no word-length-ratio slicing; professional phonetic review pending",
+      "pitchShift": false,
+      "timeStretch": false,
+      "review": "User approved Libby timbre; professional phoneme and new full-sequence listening review pending",
+      "file": "clear-a.mp3",
+      "sourceAssetSha256": "52f1283c552ffe2c65db9d2bfe92cc27cd0364d27435cd3e0d334bd41d0e1208"
+    },
+    {
+      "id": "clear-ay",
+      "ipa": "/eɪ/",
+      "voice": "en-GB-LibbyNeural",
+      "locale": "en-GB",
+      "generatedText": "A.",
+      "rate": "+0%",
+      "selection": [
+        0.16,
+        0.51
+      ],
+      "duration": 0.35,
+      "linearGain": 0.9900990099009901,
+      "alignment": [],
+      "method": "Whole single-sound carrier with silence trim",
+      "pitchShift": false,
+      "timeStretch": false,
+      "review": "User approved Libby timbre; professional phoneme and new full-sequence listening review pending",
+      "file": "clear-ay.mp3",
+      "sourceAssetSha256": "3798b1ed6e353c5e663432200858ef98534ca11171990b279722548ebd5a6e6d"
+    },
+    {
+      "id": "clear-d",
+      "ipa": "/d/",
+      "voice": "en-GB-LibbyNeural",
+      "locale": "en-GB",
+      "generatedText": "Dee.",
+      "rate": "-10%",
+      "selection": [
+        0.265,
+        0.29
+      ],
+      "duration": 0.025,
+      "linearGain": 2.5,
+      "alignment": [],
+      "method": "Manually inspected carrier spectral transition; no word-length-ratio slicing; professional phonetic review pending",
+      "pitchShift": false,
+      "timeStretch": false,
+      "review": "User approved Libby timbre; professional phoneme and new full-sequence listening review pending",
+      "file": "clear-d.mp3",
+      "sourceAssetSha256": "73d57c4b1d700bfd8fe9149140ded2bf28d91a26cb83e1126a615cd530415cc6"
+    },
+    {
+      "id": "clear-e",
+      "ipa": "/e/",
+      "voice": "en-GB-LibbyNeural",
+      "locale": "en-GB",
+      "generatedText": "Ed.",
+      "rate": "-10%",
+      "selection": [
+        0.205,
+        0.395
+      ],
+      "duration": 0.19,
+      "linearGain": 0.7881773399014779,
+      "alignment": [],
+      "method": "Manually inspected carrier spectral transition; no word-length-ratio slicing; professional phonetic review pending",
+      "pitchShift": false,
+      "timeStretch": false,
+      "review": "User approved Libby timbre; professional phoneme and new full-sequence listening review pending",
+      "file": "clear-e.mp3",
+      "sourceAssetSha256": "2cbaebf53a3e830bb20f1281c5d1c881a91369c0f238118fa61d3134b8ecd0ea"
+    },
+    {
+      "id": "clear-f",
+      "ipa": "/f/",
+      "voice": "en-GB-LibbyNeural",
+      "locale": "en-GB",
+      "generatedText": "Fee.",
+      "rate": "-10%",
+      "selection": [
+        0.205,
+        0.35
+      ],
+      "duration": 0.145,
+      "linearGain": 2.5,
+      "alignment": [],
+      "method": "Manually inspected carrier spectral transition; no word-length-ratio slicing; professional phonetic review pending",
+      "pitchShift": false,
+      "timeStretch": false,
+      "review": "User approved Libby timbre; professional phoneme and new full-sequence listening review pending",
+      "file": "clear-f.mp3",
+      "sourceAssetSha256": "eb087fc269f7cace06b94babcbe3228424e4077a5d759f488c8785752f17b218"
+    },
+    {
+      "id": "clear-h",
+      "ipa": "/h/",
+      "voice": "en-GB-LibbyNeural",
+      "locale": "en-GB",
+      "generatedText": "He.",
+      "rate": "-10%",
+      "selection": [
+        0.205,
+        0.285
+      ],
+      "duration": 0.08,
+      "linearGain": 2.5,
+      "alignment": [],
+      "method": "Manually inspected carrier spectral transition; no word-length-ratio slicing; professional phonetic review pending",
+      "pitchShift": false,
+      "timeStretch": false,
+      "review": "User approved Libby timbre; professional phoneme and new full-sequence listening review pending",
+      "file": "clear-h.mp3",
+      "sourceAssetSha256": "5efc25028c26baee41e918ae030060b12c542d1910fec6df5f555ddece55d74e"
+    },
+    {
+      "id": "clear-i-short",
+      "ipa": "/i/",
+      "voice": "en-GB-LibbyNeural",
+      "locale": "en-GB",
+      "generatedText": "Happy.",
+      "rate": "-10%",
+      "selection": [
+        0.565,
+        0.73
+      ],
+      "duration": 0.165,
+      "linearGain": 2.2427810485001403,
+      "alignment": [],
+      "method": "Manually inspected carrier spectral transition; no word-length-ratio slicing; professional phonetic review pending",
+      "pitchShift": false,
+      "timeStretch": false,
+      "review": "User approved Libby timbre; professional phoneme and new full-sequence listening review pending",
+      "file": "clear-i-short.mp3",
+      "sourceAssetSha256": "ca51fa936b9777e6a1edd9a7c66aaf238c63a78b2b06b3a9c00ddddd97eb39ba"
+    },
+    {
+      "id": "clear-j",
+      "ipa": "/j/",
+      "voice": "en-GB-LibbyNeural",
+      "locale": "en-GB",
+      "generatedText": "You.",
+      "rate": "-10%",
+      "selection": [
+        0.21,
+        0.29
+      ],
+      "duration": 0.08,
+      "linearGain": 2.5,
+      "alignment": [],
+      "method": "Manually inspected carrier spectral transition; no word-length-ratio slicing; professional phonetic review pending",
+      "pitchShift": false,
+      "timeStretch": false,
+      "review": "User approved Libby timbre; professional phoneme and new full-sequence listening review pending",
+      "file": "clear-j.mp3",
+      "sourceAssetSha256": "1f2320e95c9defe0bf0124ccb7fdcf7191cf593388b60b3b0993eff472a75bb3"
+    },
+    {
+      "id": "clear-l",
+      "ipa": "/l/",
+      "voice": "en-GB-LibbyNeural",
+      "locale": "en-GB",
+      "generatedText": "Lee.",
+      "rate": "-10%",
+      "selection": [
+        0.21,
+        0.295
+      ],
+      "duration": 0.085,
+      "linearGain": 2.2123893805309733,
+      "alignment": [],
+      "method": "Manually inspected carrier spectral transition; no word-length-ratio slicing; professional phonetic review pending",
+      "pitchShift": false,
+      "timeStretch": false,
+      "review": "User approved Libby timbre; professional phoneme and new full-sequence listening review pending",
+      "file": "clear-l.mp3",
+      "sourceAssetSha256": "919b600fd3e8028bb929a2710638a652356e710fe5dcee650eccb64af02514f7"
+    },
+    {
+      "id": "clear-m",
+      "ipa": "/m/",
+      "voice": "en-GB-LibbyNeural",
+      "locale": "en-GB",
+      "generatedText": "Me.",
+      "rate": "-10%",
+      "selection": [
+        0.205,
+        0.29
+      ],
+      "duration": 0.085,
+      "linearGain": 1.436652599443297,
+      "alignment": [],
+      "method": "Manually inspected carrier spectral transition; no word-length-ratio slicing; professional phonetic review pending",
+      "pitchShift": false,
+      "timeStretch": false,
+      "review": "User approved Libby timbre; professional phoneme and new full-sequence listening review pending",
+      "file": "clear-m.mp3",
+      "sourceAssetSha256": "3446b0b752b5d4f9fb0324625c445af619f2b35665d81b2c676822b76b7512c0"
+    },
+    {
+      "id": "clear-n",
+      "ipa": "/n/",
+      "voice": "en-GB-LibbyNeural",
+      "locale": "en-GB",
+      "generatedText": "No.",
+      "rate": "-10%",
+      "selection": [
+        0.21,
+        0.315
+      ],
+      "duration": 0.105,
+      "linearGain": 1.3950649577120935,
+      "alignment": [],
+      "method": "Manually inspected carrier spectral transition; no word-length-ratio slicing; professional phonetic review pending",
+      "pitchShift": false,
+      "timeStretch": false,
+      "review": "User approved Libby timbre; professional phoneme and new full-sequence listening review pending",
+      "file": "clear-n.mp3",
+      "sourceAssetSha256": "62bf3997444f4098a181161d292b9217773476ef51535eab5695ad604f8f2f4a"
+    },
+    {
+      "id": "clear-p",
+      "ipa": "/p/",
+      "voice": "en-GB-LibbyNeural",
+      "locale": "en-GB",
+      "generatedText": "Pea.",
+      "rate": "-10%",
+      "selection": [
+        0.205,
+        0.245
+      ],
+      "duration": 0.04,
+      "linearGain": 2.5,
+      "alignment": [],
+      "method": "Manually inspected carrier spectral transition; no word-length-ratio slicing; professional phonetic review pending",
+      "pitchShift": false,
+      "timeStretch": false,
+      "review": "User approved Libby timbre; professional phoneme and new full-sequence listening review pending",
+      "file": "clear-p.mp3",
+      "sourceAssetSha256": "93f6813dbb619034d7fefa62e3f84ac8dc473f58fcb846147944f9358b26e7ee"
+    },
+    {
+      "id": "clear-r",
+      "ipa": "/r/",
+      "voice": "en-GB-LibbyNeural",
+      "locale": "en-GB",
+      "generatedText": "Ray.",
+      "rate": "-10%",
+      "selection": [
+        0.21,
+        0.295
+      ],
+      "duration": 0.085,
+      "linearGain": 1.0985238585650532,
+      "alignment": [],
+      "method": "Manually inspected carrier spectral transition; no word-length-ratio slicing; professional phonetic review pending",
+      "pitchShift": false,
+      "timeStretch": false,
+      "review": "User approved Libby timbre; professional phoneme and new full-sequence listening review pending",
+      "file": "clear-r.mp3",
+      "sourceAssetSha256": "53f5c4d8eaebf0c19f29da92e9621897392beef285ab70aafe0ca5ba6c755e1c"
+    },
+    {
+      "id": "clear-s",
+      "ipa": "/s/",
+      "voice": "en-GB-LibbyNeural",
+      "locale": "en-GB",
+      "generatedText": "See.",
+      "rate": "-10%",
+      "selection": [
+        0.215,
+        0.38
+      ],
+      "duration": 0.165,
+      "linearGain": 2.0765736534717716,
+      "alignment": [],
+      "method": "Manually inspected carrier spectral transition; no word-length-ratio slicing; professional phonetic review pending",
+      "pitchShift": false,
+      "timeStretch": false,
+      "review": "User approved Libby timbre; professional phoneme and new full-sequence listening review pending",
+      "file": "clear-s.mp3",
+      "sourceAssetSha256": "5322d8bd3b06a6a9e858614aa8716896b63743c3dd90278c5183a3e5c2bf4860"
+    },
+    {
+      "id": "clear-t",
+      "ipa": "/t/",
+      "voice": "en-GB-LibbyNeural",
+      "locale": "en-GB",
+      "generatedText": "Tea.",
+      "rate": "-10%",
+      "selection": [
+        0.205,
+        0.285
+      ],
+      "duration": 0.08,
+      "linearGain": 2.418745275888133,
+      "alignment": [],
+      "method": "Manually inspected carrier spectral transition; no word-length-ratio slicing; professional phonetic review pending",
+      "pitchShift": false,
+      "timeStretch": false,
+      "review": "User approved Libby timbre; professional phoneme and new full-sequence listening review pending",
+      "file": "clear-t.mp3",
+      "sourceAssetSha256": "169c81dc036fc93c0c3d06b2b2fbe8f42d494cd4e92fe9f442d4a9a6faa5ae3d"
+    },
+    {
+      "id": "clear-u",
+      "ipa": "/uː/",
+      "voice": "en-GB-LibbyNeural",
+      "locale": "en-GB",
+      "generatedText": "Ooh.",
+      "rate": "+0%",
+      "selection": [
+        0.16,
+        0.51
+      ],
+      "duration": 0.35,
+      "linearGain": 1.196351129056378,
+      "alignment": [],
+      "method": "Whole single-sound carrier with silence trim",
+      "pitchShift": false,
+      "timeStretch": false,
+      "review": "User approved Libby timbre; professional phoneme and new full-sequence listening review pending",
+      "file": "clear-u.mp3",
+      "sourceAssetSha256": "8747205aefc358cbcbdaeddeb2c01957b303e95305544d8f5d4123bb9c7e4c34"
+    }
+  ],
+  "acceptedEe": "sound-ee: retained approved W18 /i:/ source and PCM",
+  "lessons": {
+    "friend": {
+      "audio": "guided-friend-v6",
+      "parts": [
+        "f",
+        "r",
+        "ie",
+        "n",
+        "d"
+      ],
+      "duration": 25.01392,
+      "changes": [
+        {
+          "index": 0,
+          "part": "f",
+          "oldSound": "sound-f",
+          "newSound": "clear-f",
+          "oldStartSample": 47232,
+          "oldEndSample": 52512,
+          "newSamples": 3480
+        },
+        {
+          "index": 1,
+          "part": "r",
+          "oldSound": "sound-r",
+          "newSound": "clear-r",
+          "oldStartSample": 102336,
+          "oldEndSample": 106416,
+          "newSamples": 2040
+        },
+        {
+          "index": 2,
+          "part": "ie",
+          "oldSound": "sound-e",
+          "newSound": "clear-e",
+          "oldStartSample": 206928,
+          "oldEndSample": 211728,
+          "newSamples": 4560
+        },
+        {
+          "index": 3,
+          "part": "n",
+          "oldSound": "sound-n",
+          "newSound": "clear-n",
+          "oldStartSample": 261552,
+          "oldEndSample": 265392,
+          "newSamples": 2520
+        },
+        {
+          "index": 4,
+          "part": "d",
+          "oldSound": "sound-d",
+          "newSound": "clear-d",
+          "oldStartSample": 315216,
+          "oldEndSample": 316056,
+          "newSamples": 600
+        }
+      ],
+      "retainedAcceptedVowels": 0,
+      "deltaSamples": -5640
+    },
+    "meet": {
+      "audio": "guided-meet-v6",
+      "parts": [
+        "m",
+        "ee",
+        "t"
+      ],
+      "duration": 19.737,
+      "changes": [
+        {
+          "index": 0,
+          "part": "m",
+          "oldSound": "sound-m",
+          "newSound": "clear-m",
+          "oldStartSample": 46080,
+          "oldEndSample": 50160,
+          "newSamples": 2040
+        },
+        {
+          "index": 2,
+          "part": "t",
+          "oldSound": "sound-t",
+          "newSound": "clear-t",
+          "oldStartSample": 184224,
+          "oldEndSample": 187584,
+          "newSamples": 1920
+        }
+      ],
+      "retainedAcceptedVowels": 1,
+      "deltaSamples": -3480
+    },
+    "play": {
+      "audio": "guided-play-v6",
+      "parts": [
+        "p",
+        "l",
+        "ay"
+      ],
+      "duration": 18.76983,
+      "changes": [
+        {
+          "index": 0,
+          "part": "p",
+          "oldSound": "sound-p",
+          "newSound": "clear-p",
+          "oldStartSample": 47232,
+          "oldEndSample": 47952,
+          "newSamples": 960
+        },
+        {
+          "index": 1,
+          "part": "l",
+          "oldSound": "sound-l",
+          "newSound": "clear-l",
+          "oldStartSample": 98928,
+          "oldEndSample": 102288,
+          "newSamples": 2040
+        },
+        {
+          "index": 2,
+          "part": "ay",
+          "oldSound": "sound-ay",
+          "newSound": "clear-ay",
+          "oldStartSample": 166512,
+          "oldEndSample": 180409,
+          "newSamples": 8400
+        }
+      ],
+      "retainedAcceptedVowels": 0,
+      "deltaSamples": -6577
+    },
+    "happy": {
+      "audio": "guided-happy-v6",
+      "parts": [
+        "h",
+        "a",
+        "pp",
+        "y"
+      ],
+      "duration": 21.72896,
+      "changes": [
+        {
+          "index": 0,
+          "part": "h",
+          "oldSound": "sound-h",
+          "newSound": "clear-h",
+          "oldStartSample": 48960,
+          "oldEndSample": 52080,
+          "newSamples": 1920
+        },
+        {
+          "index": 1,
+          "part": "a",
+          "oldSound": "sound-a",
+          "newSound": "clear-a",
+          "oldStartSample": 101904,
+          "oldEndSample": 107424,
+          "newSamples": 3720
+        },
+        {
+          "index": 2,
+          "part": "pp",
+          "oldSound": "sound-p",
+          "newSound": "clear-p",
+          "oldStartSample": 181440,
+          "oldEndSample": 182160,
+          "newSamples": 960
+        },
+        {
+          "index": 3,
+          "part": "y",
+          "oldSound": "sound-i",
+          "newSound": "clear-i-short",
+          "oldStartSample": 248112,
+          "oldEndSample": 251952,
+          "newSamples": 3960
+        }
+      ],
+      "retainedAcceptedVowels": 0,
+      "deltaSamples": -2640
+    },
+    "you": {
+      "audio": "guided-you-v6",
+      "parts": [
+        "y",
+        "ou"
+      ],
+      "duration": 17.1845,
+      "changes": [
+        {
+          "index": 0,
+          "part": "y",
+          "oldSound": "sound-j",
+          "newSound": "clear-j",
+          "oldStartSample": 57600,
+          "oldEndSample": 61440,
+          "newSamples": 1920
+        },
+        {
+          "index": 1,
+          "part": "ou",
+          "oldSound": "sound-u",
+          "newSound": "clear-u",
+          "oldStartSample": 131424,
+          "oldEndSample": 140544,
+          "newSamples": 8400
+        }
+      ],
+      "retainedAcceptedVowels": 0,
+      "deltaSamples": -2640
+    },
+    "to": {
+      "audio": "guided-to-v6",
+      "parts": [
+        "t",
+        "o"
+      ],
+      "duration": 16.00729,
+      "changes": [
+        {
+          "index": 0,
+          "part": "t",
+          "oldSound": "sound-t",
+          "newSound": "clear-t",
+          "oldStartSample": 47232,
+          "oldEndSample": 48048,
+          "newSamples": 1920
+        },
+        {
+          "index": 1,
+          "part": "o",
+          "oldSound": "sound-u",
+          "newSound": "clear-u",
+          "oldStartSample": 108816,
+          "oldEndSample": 117936,
+          "newSamples": 8400
+        }
+      ],
+      "retainedAcceptedVowels": 0,
+      "deltaSamples": 384
+    },
+    "lets": {
+      "audio": "guided-lets-v6",
+      "parts": [
+        "l",
+        "e",
+        "t",
+        "'s"
+      ],
+      "duration": 21.79467,
+      "changes": [
+        {
+          "index": 0,
+          "part": "l",
+          "oldSound": "sound-l",
+          "newSound": "clear-l",
+          "oldStartSample": 46656,
+          "oldEndSample": 50016,
+          "newSamples": 2040
+        },
+        {
+          "index": 1,
+          "part": "e",
+          "oldSound": "sound-e",
+          "newSound": "clear-e",
+          "oldStartSample": 100416,
+          "oldEndSample": 105216,
+          "newSamples": 4560
+        },
+        {
+          "index": 2,
+          "part": "t",
+          "oldSound": "sound-t",
+          "newSound": "clear-t",
+          "oldStartSample": 156768,
+          "oldEndSample": 157584,
+          "newSamples": 1920
+        },
+        {
+          "index": 3,
+          "part": "'s",
+          "oldSound": "sound-s",
+          "newSound": "clear-s",
+          "oldStartSample": 239088,
+          "oldEndSample": 243408,
+          "newSamples": 3960
+        }
+      ],
+      "retainedAcceptedVowels": 0,
+      "deltaSamples": -816
+    }
+  },
+  "review": "User approved Libby timbre and W18 read audition. New phoneme cuts checked against acoustic spectra; new full sequences and professional phonetic listening review pending. Phone alignment tool returned silence-only results and was rejected, never used as evidence of correctness."
+}
