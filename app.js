@@ -40,6 +40,13 @@ let activeAudio=null;
 let activeAudioName='',audioAnimation=0,playGeneration=0;
 let audioLoading=false;
 const audioBlobCache=new Map();
+function pacedAudioSource(name){
+  const id=Object.keys(PACED_PHONICS).find(id=>TEACHER_LESSONS[id].audio===name);
+  return id?`./assets/audio/paced-${id}.mp3`:null;
+}
+function preparePacedAudio(a,source){
+  if(a.getAttribute('src')!==source||a.error){a.preload='auto';a.src=source;a.load();}
+}
 function bufferedAudioSource(name){
   if(!audioBlobCache.has(name)){
     const source=`./assets/audio/${name}.mp3${name.startsWith('guided-')||name.startsWith('clear-')?'?v=clear2':name==='sound-ee'?'?v=clear1':''}`;
@@ -78,7 +85,16 @@ async function playAudio(name,start=0){
   stopAudio();const generation=playGeneration;
   const a=document.querySelector('#pronunciation-audio');
   activeAudio=a;activeAudioName=name;a.playbackRate=state.speed;audioLoading=true;syncHighlight();
+  let timer;
   try{
+    const paced=pacedAudioSource(name);
+    if(paced){
+      preparePacedAudio(a,paced);
+      a.currentTime=start;
+      await Promise.race([a.play(),new Promise((_,reject)=>{timer=setTimeout(()=>reject(new Error('Audio start timeout')),15000);})]);
+      if(generation!==playGeneration)return;
+      audioLoading=false;cancelAnimationFrame(audioAnimation);syncHighlight();return;
+    }
     const source=await bufferedAudioSource(name);
     if(generation!==playGeneration)return;
     a.dataset.clip=name;
@@ -96,7 +112,8 @@ async function playAudio(name,start=0){
     a.currentTime=start;
     a.playbackRate=state.speed;
     await a.play();if(generation===playGeneration){cancelAnimationFrame(audioAnimation);syncHighlight();}
-  }catch{if(generation===playGeneration){audioLoading=false;activeAudio=null;activeAudioName='';syncHighlight();toast('发音暂时未能播放，请再点一次喇叭。');}}
+  }catch{if(generation===playGeneration){stopAudio();toast('发音暂时未能播放，请再点一次喇叭。');}}
+  finally{clearTimeout(timer);}
 }
 function stopAudio(){audioLoading=false;playGeneration++;cancelAnimationFrame(audioAnimation);if(activeAudio)activeAudio.pause();activeAudio=null;activeAudioName='';syncHighlight();}
 function toggleAudio(name){
@@ -150,6 +167,7 @@ function renderWord(){
   document.querySelector('#word-again').onclick=()=>{markWord(w.id,false);toast('已放入复习，等会儿再试一次。');advanceWord();};
   document.querySelector('#previous-word').onclick=()=>{stopAudio();currentWordIndex--;renderWord();};
   document.querySelector('#next-word').onclick=()=>{stopAudio();currentWordIndex++;renderWord();};
+  if(wordView==='phonics'&&PACED_PHONICS[w.id])preparePacedAudio(document.querySelector('#pronunciation-audio'),pacedAudioSource(TEACHER_LESSONS[w.id].audio));
 }
 function advanceWord(){stopAudio();if(currentWordIndex<6){currentWordIndex++;renderWord();}else{document.querySelector('#word-dialog').close();render();}}
 function pageIntro(title,sub,label){return `${crumb(label)}<div class="page-intro"><span class="eyebrow">UNIT 01 · LET’S BE FRIENDS!</span><h1>${title}</h1><p>${sub}</p></div>`;}
